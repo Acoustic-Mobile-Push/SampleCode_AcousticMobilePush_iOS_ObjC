@@ -14,7 +14,7 @@ target 'Auto Sample' do
   pod 'AcousticMobilePushNotificationDebug'
 end
 
- target 'Notification Service' do
+ target 'Auto Notification Service' do
    # If you want to use release binaries of AcousticMobilePush please change the following line
    # pod 'AcousticMobilePushNotificationDebug'
    # and use
@@ -22,7 +22,7 @@ end
    pod 'AcousticMobilePushNotificationDebug'
  end
 
- target 'Watch Extension' do
+ target 'Auto Watch Extension' do
    platform :watchos, '4.0'
    # If you want to use release binaries of AcousticMobilePush please change the following line
    # pod 'AcousticMobilePushWatchDebug'
