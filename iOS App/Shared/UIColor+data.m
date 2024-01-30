@@ -1,5 +1,5 @@
 /*
-* Copyright © 2019 Acoustic, L.P. All rights reserved.
+* Copyright (C) 2024 Acoustic, L.P. All rights reserved.
 *
 * NOTICE: This file contains material that is confidential and proprietary to
 * Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -13,11 +13,13 @@
 @implementation UIColor (data)
 
 -(NSData*) data {
-    return [NSKeyedArchiver archivedDataWithRootObject:self];
+    return [NSKeyedArchiver archivedDataWithRootObject:self requiringSecureCoding:NO error:nil];
 }
 
 +(UIColor*)from: (NSData*) data {
-    return [NSKeyedUnarchiver unarchiveObjectWithData:data];
+    NSKeyedUnarchiver* unarchiver = [[NSKeyedUnarchiver alloc] initForReadingFromData:data error:nil];
+    unarchiver.requiresSecureCoding = NO;
+    return [unarchiver decodeTopLevelObjectForKey:NSKeyedArchiveRootObjectKey error:nil];
 }
 
 @end
