@@ -2,84 +2,42 @@
 
 SampleCode_AcousticMobilePush_iOS_ObjC is one of the sample iOS application that shows how to integrate [Acoustic-Mobile-Push SDK](https://github.com/Acoustic-Mobile-Push/iOS) with any iOS Application.
 
-
-## Getting Started for Cocoapods
+## Getting Started for Carthage
 
 ### Prerequisites
 
-You need to have recent cocoapods version install on your Mac OS. Current version is 1.4.0. Please refer to cocoapods website for the details.
+You need to have recent carthage version install on your Mac OS. Current version is 0.36.0. [Please refer to carthage website for the details](https://github.com/Carthage/Carthage).
 
 For SDK prerequisites and documentation, please refer to the SDK documentation [here](https://developer.goacoustic.com/acoustic-campaign/docs/add-the-ios-sdk-to-your-app)
 
-## Updating podfile
+## Updating Cartfile
 
-Open Podfile in a text editor of your choice and note the following lines in the Podfile.
-```
-source 'https://github.com/Acoustic-Mobile-Push/iOS.git'
-source 'https://github.com/CocoaPods/Specs.git'
-```
-
-Also note the platform in the Podfile iOS 12.1
-```
-platform :ios, '12.1'
-```
-
-Note that use_frameworks is uncommented for xcframeworks.
-```
-use_frameworks!
-```
+Open Cartfile in a text editor of your choice and note the following lines:
 
 In the respective targets for your project in the Podfile add the following line if you want to use AcousticMobilePush SDK's release version
 ```
-pod 'AcousticMobilePush'
-pod 'AcousticMobilePushNotification'
-```
-
-If iWatch is used, add iwatch extension
-```
-pod 'AcousticMobilePushWatch'
+binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePush.json" >= 3.8.18
+binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushNotification.json" >= 3.8.18
+binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushWatch.json" >= 3.8.18
 ```
 
 In the respective targets for your project in the Podfile add the following line if you want to use AcousticMobilePush SDK's debug version
 ```
-pod 'AcousticMobilePushDebug'
-pod 'AcousticMobilePushNotificationDebug'
+binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushDebug.json" >= 3.8.18
+binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushNotificationDebug.json" >= 3.8.18
+binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushWatchDebug.json" >= 3.8.18
 ```
 
-If iWatch is used, add iwatch extension
+You will notice that by default the sample application uses `Debug` version of libraries.
+
+Note that you can use only one of  `Release` or `Debug`. Do not use both at the same time.
+
+Now you need to install the carthage by running the following command.
 ```
-pod 'AcousticMobilePushWatchDebug'
+carthage update --use-xcframeworks
 ```
 
-You will notice that by default the sample application uses `pod 'AcousticMobilePushDebug'`,`pod 'AcousticMobilePushDebug'` and `pod 'AcousticMobilePushNotificationDebug'`
-
-Note that you can use only one of 
-```
- pod 'AcousticMobilePushDebug'
- pod 'AcousticMobilePushDebug'
- pod 'AcousticMobilePushNotificationDebug'
- ```
- 
- or 
- ```
- pod 'AcousticMobilePushDebug'
- pod 'AcousticMobilePushDebug'
- pod 'AcousticMobilePushNotificationDebug'
- ```
- 
-Do not use both at the same time.
-
-Now you need to install the pods by running one of the following commands.
-```
-pod install
-```
-
-or to update
-```
-pod update
-```
-
-Above pod command (install or update) should complete with no errors. If you do see errors run the same command with `--verbose` option and share the error log with us.
+Above carthage command should complete with no errors.
 
 ## Run Sample Application
 
@@ -92,11 +50,11 @@ git clone https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_
 Open terminal window and go to the sample app location
 ```
 cd SampleCode_AcousticMobilePush_iOS_ObjC
-```
+``` 
 
 Run the following command
 ```
-pod install
+carthage update --use-xcframeworks
 ```
 
 Then follow the instructions on [build-mobile-app-messages-with-the-sample-app](https://developer.goacoustic.com/acoustic-campaign/docs/build-mobile-app-messages-with-the-sample-app)
