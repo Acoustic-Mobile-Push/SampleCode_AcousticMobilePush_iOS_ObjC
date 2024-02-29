@@ -1001,6 +1001,7 @@
 				C392A10C2437B70500C16933 /* Sources */,
 				C392A10D2437B70500C16933 /* Frameworks */,
 				C392A10E2437B70500C16933 /* Resources */,
+				6D7CDB882B9001F2000B625B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1037,6 +1038,7 @@
 				C3D28E9A2437927100B8F979 /* Resources */,
 				C392A11C2437B70500C16933 /* Embed Foundation Extensions */,
 				C3FF3B0D2437C6B200B6B412 /* Embed Watch Content */,
+				6D7CDB7F2B8FFFFA000B625B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1059,6 +1061,7 @@
 				C3D28F1824379F8F00B8F979 /* Resources */,
 				C392A12D2437B73700C16933 /* Embed Foundation Extensions */,
 				C3FF3B382437C6D600B6B412 /* Embed Watch Content */,
+				6D7CDB872B9001A5000B625B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1096,6 +1099,7 @@
 				C3FF3AED2437C6B100B6B412 /* Sources */,
 				C3FF3AEE2437C6B100B6B412 /* Frameworks */,
 				C3FF3AEF2437C6B100B6B412 /* Resources */,
+				6D7CDB892B900244000B625B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1130,6 +1134,7 @@
 				C3FF3B182437C6D500B6B412 /* Sources */,
 				C3FF3B192437C6D500B6B412 /* Frameworks */,
 				C3FF3B1A2437C6D500B6B412 /* Resources */,
+				6D7CDB8A2B900268000B625B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1316,6 +1321,108 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D7CDB7F2B8FFFFA000B625B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AcousticMobilePush.xcframework",
+				"$(SRCROOT)/Carthage/Build/iOS/AcousticMobilePushNotification.xcframework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AcousticMobilePush.xcframework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AcousticMobilePushNotification.xcframework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		6D7CDB872B9001A5000B625B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AcousticMobilePush.xcframework",
+				"$(SRCROOT)/Carthage/Build/iOS/AcousticMobilePushNotification.xcframework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AcousticMobilePush.xcframework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AcousticMobilePushNotification.xcframework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		6D7CDB882B9001F2000B625B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AcousticMobilePushNotification.xcframework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AcousticMobilePushNotification.xcframework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		6D7CDB892B900244000B625B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AcousticMobilePushWatch.xcframework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AcousticMobilePushWatch.xcframework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		6D7CDB8A2B900268000B625B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AcousticMobilePushWatch.xcframework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AcousticMobilePushWatch.xcframework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3437CCC028D91D7900F897D7 /* Sources */ = {
