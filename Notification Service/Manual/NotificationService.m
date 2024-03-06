@@ -1,5 +1,5 @@
 /*
- * Copyright © 2016, 2019 Acoustic, L.P. All rights reserved.
+ * Copyright (C) 2024 Acoustic, L.P. All rights reserved.
  *
  * NOTICE: This file contains material that is confidential and proprietary to
  * Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -13,9 +13,11 @@
 
 #if __has_feature(modules)
 @import UserNotifications;
+@import AcousticMobilePush;
 @import AcousticMobilePushNotification;
 #else
 #import <UserNotifications/UserNotifications.h>
+#import <AcousticMobilePushNotification/AcousticMobilePush.h>
 #import <AcousticMobilePushNotification/AcousticMobilePushNotification.h>
 #endif
 
