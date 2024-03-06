@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushDebug-SP",
       "state" : {
-        "revision" : "73b6be8b5302d9ce638304aaf0a87171c2f8e559",
-        "version" : "3.8.24"
+        "revision" : "e5541cb3ddc7abe7384aefca91c5fd173b512b29",
+        "version" : "3.9.17"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushNotificationDebug-SP",
       "state" : {
-        "revision" : "e891eba2e17e4f606152b36b728633df86639955",
-        "version" : "3.8.24"
+        "revision" : "4b0d6dbe70314bddc3cfec65d952735b24de3b76",
+        "version" : "3.9.17"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushWatchDebug-SP",
       "state" : {
-        "revision" : "cb7967baac5b3a89df48d73d7fab031e5daae33c",
-        "version" : "3.8.24"
+        "revision" : "b0e14797c1d6fd88df3aaff2693120b793590aaf",
+        "version" : "3.9.17"
       }
     }
   ],
