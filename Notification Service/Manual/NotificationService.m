@@ -13,9 +13,11 @@
 
 #if __has_feature(modules)
 @import UserNotifications;
+@import AcousticMobilePush;
 @import AcousticMobilePushNotification;
 #else
 #import <UserNotifications/UserNotifications.h>
+#import <AcousticMobilePush/AcousticMobilePush.h>
 #import <AcousticMobilePushNotification/AcousticMobilePushNotification.h>
 #endif
 
