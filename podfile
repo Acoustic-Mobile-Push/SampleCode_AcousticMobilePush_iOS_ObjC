@@ -41,6 +41,7 @@ end
    # pod 'AcousticMobilePushNotificationDebug'
    # and use
    # pod 'AcousticMobilePushNotification'
+   pod 'AcousticMobilePushDebug'
    pod 'AcousticMobilePushNotificationDebug'
  end
 
