@@ -1,6 +1,6 @@
 # SampleCode_AcousticMobilePush_iOS_ObjC
 
-SampleCode_AcousticMobilePush_iOS_ObjC is one of the sample iOS application that shows how to integrate [Acoustic-Mobile-Push SDK](https://github.com/Acoustic-Mobile-Push/iOS) with any iOS Application.
+SampleCode_AcousticMobilePush_iOS_ObjC is one of the sample iOS application that shows how to integrate [Acoustic-Mobile-Push SDK](https://github.com/go-acoustic/Acoustic-Mobile-Push-iOS) with any iOS Application.
 
 ## Getting Started for Carthage
 
@@ -16,16 +16,16 @@ Open Cartfile in a text editor of your choice and note the following lines:
 
 In the respective targets for your project in the Podfile add the following line if you want to use AcousticMobilePush SDK's release version
 ```
-binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePush.json" >= 3.8.18
-binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushNotification.json" >= 3.8.18
-binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushWatch.json" >= 3.8.18
+binary "https://raw.githubusercontent.com/go-acoustic/iOS/master/AcousticMobilePush.json" >= 3.8.18
+binary "https://raw.githubusercontent.com/go-acoustic/iOS/master/AcousticMobilePushNotification.json" >= 3.8.18
+binary "https://raw.githubusercontent.com/go-acoustic/iOS/master/AcousticMobilePushWatch.json" >= 3.8.18
 ```
 
 In the respective targets for your project in the Podfile add the following line if you want to use AcousticMobilePush SDK's debug version
 ```
-binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushDebug.json" >= 3.8.18
-binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushNotificationDebug.json" >= 3.8.18
-binary "https://raw.githubusercontent.com/Acoustic-Mobile-Push/iOS/master/AcousticMobilePushWatchDebug.json" >= 3.8.18
+binary "https://raw.githubusercontent.com/go-acoustic/iOS/master/AcousticMobilePushDebug.json" >= 3.8.18
+binary "https://raw.githubusercontent.com/go-acoustic/iOS/master/AcousticMobilePushNotificationDebug.json" >= 3.8.18
+binary "https://raw.githubusercontent.com/go-acoustic/iOS/master/AcousticMobilePushWatchDebug.json" >= 3.8.18
 ```
 
 You will notice that by default the sample application uses `Debug` version of libraries.
@@ -44,7 +44,7 @@ Above carthage command should complete with no errors.
 Clone the sample app code from github location
 
 ```
-git clone https://github.com/Acoustic-Mobile-Push/SampleCode_AcousticMobilePush_iOS_ObjC.git
+git clone https://github.com/go-acoustic/SampleCode_AcousticMobilePush_iOS_ObjC.git
 ```
 
 Open terminal window and go to the sample app location
@@ -61,5 +61,5 @@ Then follow the instructions on [build-mobile-app-messages-with-the-sample-app](
 
 # License
 
-License files can be read [here](https://github.com/acoustic-analytics/Tealeaf/tree/master/Licenses)
+License files can be read [here](https://github.com/go-acoustic/Acoustic-Mobile-Push-iOS/blob/master/license/license.txt)
 
