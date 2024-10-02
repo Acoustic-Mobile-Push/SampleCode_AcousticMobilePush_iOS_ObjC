@@ -1,12 +1,13 @@
 {
+  "originHash" : "aa8939d0d8537afd89c55b417893c7892d90c7ffa4bab6b81c9f80ac03e97455",
   "pins" : [
     {
       "identity" : "acousticmobilepushdebug-sp",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushDebug-SP",
       "state" : {
-        "revision" : "e5541cb3ddc7abe7384aefca91c5fd173b512b29",
-        "version" : "3.9.17"
+        "revision" : "7aad56d111c1d16fe4809476fcad0bd8181c68a4",
+        "version" : "3.9.32"
       }
     },
     {
@@ -14,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushNotificationDebug-SP",
       "state" : {
-        "revision" : "4b0d6dbe70314bddc3cfec65d952735b24de3b76",
-        "version" : "3.9.17"
+        "revision" : "7f29b54b0339da15a3c6abd0f8f077e4a4011ea5",
+        "version" : "3.9.32"
       }
     },
     {
@@ -23,10 +24,10 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushWatchDebug-SP",
       "state" : {
-        "revision" : "b0e14797c1d6fd88df3aaff2693120b793590aaf",
-        "version" : "3.9.17"
+        "revision" : "f692cacb1050dec3362dbdccfab5be9183d60b86",
+        "version" : "3.9.31"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
