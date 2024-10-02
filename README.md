@@ -18,9 +18,9 @@ Open Podfile in a text editor of your choice and note the following lines in the
 source 'https://github.com/CocoaPods/Specs.git'
 ```
 
-Also note the platform in the Podfile iOS 12.1
+Also note the platform in the Podfile iOS 13.0
 ```
-platform :ios, '12.1'
+platform :ios, '13.0'
 ```
 
 Note that use_frameworks is uncommented for xcframeworks.
