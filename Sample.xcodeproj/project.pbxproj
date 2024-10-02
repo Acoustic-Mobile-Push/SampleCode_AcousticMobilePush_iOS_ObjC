@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2016DAF4F4F1E5988BA0E00D /* Pods_Auto_Watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F71546EA28510DE7AB4F3F /* Pods_Auto_Watch_Extension.framework */; };
+		2B6C6E191CBCD4FA92CB8ED5 /* Pods_Auto_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE423F7AD4B9FC342EB581D3 /* Pods_Auto_Sample.framework */; };
 		3437CCC528D91D7900F897D7 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3437CCAE28D919D300F897D7 /* UserNotifications.framework */; };
 		3437CCC628D91D7900F897D7 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3437CCB028D919D300F897D7 /* UserNotificationsUI.framework */; };
 		3437CCD128D91D7900F897D7 /* Carousel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3437CCC428D91D7900F897D7 /* Carousel.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		34AE1BD9772228F4D5550443 /* Pods_Auto_Watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D69050B00F4A60364BB1B5F /* Pods_Auto_Watch_Extension.framework */; };
-		561102A80E14CCDDB12989A8 /* Pods_Auto_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF7718B85EE551ACAD7F86C /* Pods_Auto_Sample.framework */; };
-		5DD236260B3DDC0562C35501 /* Pods_Auto_Notification_Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77367D2F1345EDBAB1B4A6FC /* Pods_Auto_Notification_Service.framework */; };
+		491CDFE26371B86253AF2D88 /* Pods_Manual_Notification_Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC20DFBF75ACB8C793D29F1C /* Pods_Manual_Notification_Service.framework */; };
 		6D468F5D2B982BE500C6FFA8 /* CarouselAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F692437A0EA00B8F979 /* CarouselAction.m */; };
 		6D468F5E2B982BE500C6FFA8 /* TextInputActionPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F7E2437A0EA00B8F979 /* TextInputActionPlugin.m */; };
 		6D468F5F2B982BE500C6FFA8 /* MCEInAppVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F5C2437A0EA00B8F979 /* MCEInAppVideoPlayerView.m */; };
@@ -86,7 +86,7 @@
 		6D468FBD2B982C1200C6FFA8 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3437CCAE28D919D300F897D7 /* UserNotifications.framework */; };
 		6D4690082B982F1400C6FFA8 /* AcousticMobilePushNotification.framework in Copy Local Framework */ = {isa = PBXBuildFile; fileRef = 6D468FEF2B982E8D00C6FFA8 /* AcousticMobilePushNotification.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6D46900A2B982F2E00C6FFA8 /* AcousticMobilePush.framework in Copy Local Framework */ = {isa = PBXBuildFile; fileRef = 6D468FEB2B982E8D00C6FFA8 /* AcousticMobilePush.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		940B124349F5F4128164B770 /* Pods_Manual_Watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E923FAD55587647F4D004F9 /* Pods_Manual_Watch_Extension.framework */; };
+		B768915995BDF723B2D16128 /* Pods_Manual_Watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DEDABD2F395721805D860E /* Pods_Manual_Watch_Extension.framework */; };
 		C392A1142437B70500C16933 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = C392A1132437B70500C16933 /* NotificationService.m */; };
 		C392A1182437B70500C16933 /* Auto Notification Service.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C392A1102437B70500C16933 /* Auto Notification Service.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C392A1252437B73700C16933 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = C392A1242437B73700C16933 /* NotificationService.m */; };
@@ -219,6 +219,7 @@
 		C3D28FE22437A1BE00B8F979 /* ExamplePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F862437A0EA00B8F979 /* ExamplePlugin.m */; };
 		C3D28FE32437A1C200B8F979 /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F872437A0EA00B8F979 /* ExampleViewController.xib */; };
 		C3D28FE42437A1C900B8F979 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F8A2437A0EA00B8F979 /* ExampleViewController.m */; };
+		C3DC15E8124143E485C52215 /* Pods_Auto_Notification_Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F42C1EA921B65C89D7D5A83 /* Pods_Auto_Notification_Service.framework */; };
 		C3FCF4F2245A1E3600FD47B4 /* MceConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F2A2437A0C900B8F979 /* MceConfig.json */; };
 		C3FCF4F3245A1E3700FD47B4 /* MceConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F2A2437A0C900B8F979 /* MceConfig.json */; };
 		C3FF3AA92437C21900B6B412 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28EBF24379F7D00B8F979 /* Config.m */; };
@@ -244,8 +245,7 @@
 		C3FF3B722437CBA700B6B412 /* HandOffController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F7B2437A0EA00B8F979 /* HandOffController.m */; };
 		C3FF3B732437CBA800B6B412 /* HandOffController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F7B2437A0EA00B8F979 /* HandOffController.m */; };
 		C3FF3B772437CD1400B6B412 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B762437CD1400B6B412 /* README.md */; };
-		D56CA9C8CEB0B8E5F5E14838 /* Pods_Manual_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85411C53604564D44DD4A308 /* Pods_Manual_Sample.framework */; };
-		DFDA300693A6F3AFCBE7FC44 /* Pods_Manual_Notification_Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B142885316AF6BC56D6FCBBD /* Pods_Manual_Notification_Service.framework */; };
+		FFC07C155E98C6696A9A7188 /* Pods_Manual_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFE193AF810FCD30E626AFC /* Pods_Manual_Sample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -534,16 +534,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		02CF03007A9F524C76D1AA41 /* Pods-Manual Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Sample.debug.xcconfig"; path = "Target Support Files/Pods-Manual Sample/Pods-Manual Sample.debug.xcconfig"; sourceTree = "<group>"; };
-		1373B15B74D03E37DBE9ED06 /* Pods-Manual Notification Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Notification Service.debug.xcconfig"; path = "Target Support Files/Pods-Manual Notification Service/Pods-Manual Notification Service.debug.xcconfig"; sourceTree = "<group>"; };
-		17043135E8E49C28FD765AD4 /* Pods-Auto Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Watch Extension.release.xcconfig"; path = "Target Support Files/Pods-Auto Watch Extension/Pods-Auto Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
-		27CE2E16ECF2B75B105BC46B /* Pods-Manual Notification Service.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Notification Service.release.xcconfig"; path = "Target Support Files/Pods-Manual Notification Service/Pods-Manual Notification Service.release.xcconfig"; sourceTree = "<group>"; };
+		04872914E60CFCF095D68BFD /* Pods-Manual Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Sample.debug.xcconfig"; path = "Target Support Files/Pods-Manual Sample/Pods-Manual Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		0A8C1FF55E04B5824B5F9AAF /* Pods-Auto Notification Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Notification Service.debug.xcconfig"; path = "Target Support Files/Pods-Auto Notification Service/Pods-Auto Notification Service.debug.xcconfig"; sourceTree = "<group>"; };
+		0B13488C683E640C21B3CACB /* Pods-Auto Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Watch Extension.debug.xcconfig"; path = "Target Support Files/Pods-Auto Watch Extension/Pods-Auto Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		2E119E62ACB680B80587719C /* Pods-Manual Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Watch Extension.release.xcconfig"; path = "Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
 		3437CCAE28D919D300F897D7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		3437CCB028D919D300F897D7 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		3437CCC428D91D7900F897D7 /* Carousel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Carousel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		3437CCE828DB6B5B00F897D7 /* Carousel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Carousel.entitlements; sourceTree = SOURCE_ROOT; };
-		4193C2A151A1C935FDD4DF37 /* Pods-Auto Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Sample.release.xcconfig"; path = "Target Support Files/Pods-Auto Sample/Pods-Auto Sample.release.xcconfig"; sourceTree = "<group>"; };
-		5EB51D010E5717884A13FE23 /* Pods-Manual Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Sample.release.xcconfig"; path = "Target Support Files/Pods-Manual Sample/Pods-Manual Sample.release.xcconfig"; sourceTree = "<group>"; };
+		47B00A776F3D3D293B8F84A9 /* Pods-Manual Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Sample.release.xcconfig"; path = "Target Support Files/Pods-Manual Sample/Pods-Manual Sample.release.xcconfig"; sourceTree = "<group>"; };
+		5DFE193AF810FCD30E626AFC /* Pods_Manual_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manual_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D468FAA2B982BE500C6FFA8 /* Auto Sample Local.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Sample Local.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D468FAB2B982BE600C6FFA8 /* Auto Sample Local-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Auto Sample Local-Info.plist"; path = "/Users/omarhernandez/git/github/SampleCode_AcousticMobilePush_iOS_ObjC/Auto Sample Local-Info.plist"; sourceTree = "<absolute>"; };
 		6D468FB72B982BF900C6FFA8 /* Auto Notification Service Local.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Auto Notification Service Local.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -551,17 +551,12 @@
 		6D468FC22B982C1200C6FFA8 /* Carousel Local.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Carousel Local.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D468FC32B982C1300C6FFA8 /* Carousel Local-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Carousel Local-Info.plist"; path = "/Users/omarhernandez/git/github/SampleCode_AcousticMobilePush_iOS_ObjC/Carousel Local-Info.plist"; sourceTree = "<absolute>"; };
 		6D468FD72B982E8D00C6FFA8 /* AcousticMobilePush.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AcousticMobilePush.xcodeproj; path = "../ca-mce-ios-sdk/sdk/Framework/AcousticMobilePush/AcousticMobilePush.xcodeproj"; sourceTree = "<group>"; };
-		6E923FAD55587647F4D004F9 /* Pods_Manual_Watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manual_Watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77367D2F1345EDBAB1B4A6FC /* Pods_Auto_Notification_Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auto_Notification_Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85411C53604564D44DD4A308 /* Pods_Manual_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manual_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D69050B00F4A60364BB1B5F /* Pods_Auto_Watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auto_Watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DA148D1E8B23F3C619A267A /* Pods-Auto Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Watch Extension.debug.xcconfig"; path = "Target Support Files/Pods-Auto Watch Extension/Pods-Auto Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		9165B784D65F7B63C9DEFE02 /* Pods-Auto Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Sample.debug.xcconfig"; path = "Target Support Files/Pods-Auto Sample/Pods-Auto Sample.debug.xcconfig"; sourceTree = "<group>"; };
-		AAD6ECA5A406FD264B90B2D7 /* Pods-Manual Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Watch Extension.debug.xcconfig"; path = "Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		ACF7718B85EE551ACAD7F86C /* Pods_Auto_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auto_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B142885316AF6BC56D6FCBBD /* Pods_Manual_Notification_Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manual_Notification_Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B529D3E6D631DB779C999051 /* Pods-Auto Notification Service.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Notification Service.release.xcconfig"; path = "Target Support Files/Pods-Auto Notification Service/Pods-Auto Notification Service.release.xcconfig"; sourceTree = "<group>"; };
-		BE7E4ACA6B420625744A0A14 /* Pods-Manual Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Watch Extension.release.xcconfig"; path = "Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		844FC9A4A3C8B23BC59CA0D7 /* Pods-Auto Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Sample.release.xcconfig"; path = "Target Support Files/Pods-Auto Sample/Pods-Auto Sample.release.xcconfig"; sourceTree = "<group>"; };
+		8F42C1EA921B65C89D7D5A83 /* Pods_Auto_Notification_Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auto_Notification_Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01C78B1697EDBEFCF3B329E /* Pods-Auto Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Sample.debug.xcconfig"; path = "Target Support Files/Pods-Auto Sample/Pods-Auto Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		AE423F7AD4B9FC342EB581D3 /* Pods_Auto_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auto_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3285778746453F01095B4A9 /* Pods-Auto Notification Service.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Notification Service.release.xcconfig"; path = "Target Support Files/Pods-Auto Notification Service/Pods-Auto Notification Service.release.xcconfig"; sourceTree = "<group>"; };
+		BC20DFBF75ACB8C793D29F1C /* Pods_Manual_Notification_Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manual_Notification_Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C360F5DD24ABF92200573174 /* Auto Notification Service.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Auto Notification Service.entitlements"; sourceTree = "<group>"; };
 		C360F5DE24ABF93F00573174 /* Manual Notification Service.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Manual Notification Service.entitlements"; sourceTree = "<group>"; };
 		C360F5DF24ABF96D00573174 /* Auto Watch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Auto Watch Extension.entitlements"; sourceTree = "<group>"; };
@@ -721,7 +716,12 @@
 		C3FF3B652437CA6100B6B412 /* RegistrationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationController.m; sourceTree = "<group>"; };
 		C3FF3B692437CA9300B6B412 /* AcousticMobilePushWatch.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AcousticMobilePushWatch.xcframework; path = ../../AcousticMobilePushWatch.xcframework; sourceTree = "<group>"; };
 		C3FF3B762437CD1400B6B412 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E411DFF0206F214EACA60FD6 /* Pods-Auto Notification Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Notification Service.debug.xcconfig"; path = "Target Support Files/Pods-Auto Notification Service/Pods-Auto Notification Service.debug.xcconfig"; sourceTree = "<group>"; };
+		C5B096FEB3958B23B032B55F /* Pods-Manual Notification Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Notification Service.debug.xcconfig"; path = "Target Support Files/Pods-Manual Notification Service/Pods-Manual Notification Service.debug.xcconfig"; sourceTree = "<group>"; };
+		DB73047ADC6FCFD222DE656E /* Pods-Manual Notification Service.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Notification Service.release.xcconfig"; path = "Target Support Files/Pods-Manual Notification Service/Pods-Manual Notification Service.release.xcconfig"; sourceTree = "<group>"; };
+		E53AB08AD1A63F14C0C0E7AB /* Pods-Auto Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Watch Extension.release.xcconfig"; path = "Target Support Files/Pods-Auto Watch Extension/Pods-Auto Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		E7DEDABD2F395721805D860E /* Pods_Manual_Watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manual_Watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F71546EA28510DE7AB4F3F /* Pods_Auto_Watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auto_Watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2D9EDD5D13DF60D255A241 /* Pods-Manual Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Watch Extension.debug.xcconfig"; path = "Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -761,7 +761,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DD236260B3DDC0562C35501 /* Pods_Auto_Notification_Service.framework in Frameworks */,
+				C3DC15E8124143E485C52215 /* Pods_Auto_Notification_Service.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,7 +769,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFDA300693A6F3AFCBE7FC44 /* Pods_Manual_Notification_Service.framework in Frameworks */,
+				491CDFE26371B86253AF2D88 /* Pods_Manual_Notification_Service.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,7 +777,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561102A80E14CCDDB12989A8 /* Pods_Auto_Sample.framework in Frameworks */,
+				2B6C6E191CBCD4FA92CB8ED5 /* Pods_Auto_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,7 +785,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D56CA9C8CEB0B8E5F5E14838 /* Pods_Manual_Sample.framework in Frameworks */,
+				FFC07C155E98C6696A9A7188 /* Pods_Manual_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,7 +793,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34AE1BD9772228F4D5550443 /* Pods_Auto_Watch_Extension.framework in Frameworks */,
+				2016DAF4F4F1E5988BA0E00D /* Pods_Auto_Watch_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,7 +801,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940B124349F5F4128164B770 /* Pods_Manual_Watch_Extension.framework in Frameworks */,
+				B768915995BDF723B2D16128 /* Pods_Manual_Watch_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,18 +811,18 @@
 		1FCD4B06E13C95AD6A6CF281 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E411DFF0206F214EACA60FD6 /* Pods-Auto Notification Service.debug.xcconfig */,
-				B529D3E6D631DB779C999051 /* Pods-Auto Notification Service.release.xcconfig */,
-				9165B784D65F7B63C9DEFE02 /* Pods-Auto Sample.debug.xcconfig */,
-				4193C2A151A1C935FDD4DF37 /* Pods-Auto Sample.release.xcconfig */,
-				8DA148D1E8B23F3C619A267A /* Pods-Auto Watch Extension.debug.xcconfig */,
-				17043135E8E49C28FD765AD4 /* Pods-Auto Watch Extension.release.xcconfig */,
-				1373B15B74D03E37DBE9ED06 /* Pods-Manual Notification Service.debug.xcconfig */,
-				27CE2E16ECF2B75B105BC46B /* Pods-Manual Notification Service.release.xcconfig */,
-				02CF03007A9F524C76D1AA41 /* Pods-Manual Sample.debug.xcconfig */,
-				5EB51D010E5717884A13FE23 /* Pods-Manual Sample.release.xcconfig */,
-				AAD6ECA5A406FD264B90B2D7 /* Pods-Manual Watch Extension.debug.xcconfig */,
-				BE7E4ACA6B420625744A0A14 /* Pods-Manual Watch Extension.release.xcconfig */,
+				0A8C1FF55E04B5824B5F9AAF /* Pods-Auto Notification Service.debug.xcconfig */,
+				B3285778746453F01095B4A9 /* Pods-Auto Notification Service.release.xcconfig */,
+				A01C78B1697EDBEFCF3B329E /* Pods-Auto Sample.debug.xcconfig */,
+				844FC9A4A3C8B23BC59CA0D7 /* Pods-Auto Sample.release.xcconfig */,
+				0B13488C683E640C21B3CACB /* Pods-Auto Watch Extension.debug.xcconfig */,
+				E53AB08AD1A63F14C0C0E7AB /* Pods-Auto Watch Extension.release.xcconfig */,
+				C5B096FEB3958B23B032B55F /* Pods-Manual Notification Service.debug.xcconfig */,
+				DB73047ADC6FCFD222DE656E /* Pods-Manual Notification Service.release.xcconfig */,
+				04872914E60CFCF095D68BFD /* Pods-Manual Sample.debug.xcconfig */,
+				47B00A776F3D3D293B8F84A9 /* Pods-Manual Sample.release.xcconfig */,
+				FB2D9EDD5D13DF60D255A241 /* Pods-Manual Watch Extension.debug.xcconfig */,
+				2E119E62ACB680B80587719C /* Pods-Manual Watch Extension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -990,12 +990,12 @@
 				C3D28F242437A09C00B8F979 /* AcousticMobilePushNotification.xcframework */,
 				3437CCAE28D919D300F897D7 /* UserNotifications.framework */,
 				3437CCB028D919D300F897D7 /* UserNotificationsUI.framework */,
-				77367D2F1345EDBAB1B4A6FC /* Pods_Auto_Notification_Service.framework */,
-				ACF7718B85EE551ACAD7F86C /* Pods_Auto_Sample.framework */,
-				8D69050B00F4A60364BB1B5F /* Pods_Auto_Watch_Extension.framework */,
-				B142885316AF6BC56D6FCBBD /* Pods_Manual_Notification_Service.framework */,
-				85411C53604564D44DD4A308 /* Pods_Manual_Sample.framework */,
-				6E923FAD55587647F4D004F9 /* Pods_Manual_Watch_Extension.framework */,
+				8F42C1EA921B65C89D7D5A83 /* Pods_Auto_Notification_Service.framework */,
+				AE423F7AD4B9FC342EB581D3 /* Pods_Auto_Sample.framework */,
+				F1F71546EA28510DE7AB4F3F /* Pods_Auto_Watch_Extension.framework */,
+				BC20DFBF75ACB8C793D29F1C /* Pods_Manual_Notification_Service.framework */,
+				5DFE193AF810FCD30E626AFC /* Pods_Manual_Sample.framework */,
+				E7DEDABD2F395721805D860E /* Pods_Manual_Watch_Extension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1378,7 +1378,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C392A1192437B70500C16933 /* Build configuration list for PBXNativeTarget "Auto Notification Service" */;
 			buildPhases = (
-				1EDC4EE02BF085C67B572CAF /* [CP] Check Pods Manifest.lock */,
+				C1F1297E9AB2FDEB7EB846DB /* [CP] Check Pods Manifest.lock */,
 				C392A10C2437B70500C16933 /* Sources */,
 				C392A10D2437B70500C16933 /* Frameworks */,
 				C392A10E2437B70500C16933 /* Resources */,
@@ -1396,7 +1396,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C392A12A2437B73700C16933 /* Build configuration list for PBXNativeTarget "Manual Notification Service" */;
 			buildPhases = (
-				43E0CF2A183E16A2C5EE5B9E /* [CP] Check Pods Manifest.lock */,
+				E29F537D4E3BD52922E261F0 /* [CP] Check Pods Manifest.lock */,
 				C392A11D2437B73700C16933 /* Sources */,
 				C392A11E2437B73700C16933 /* Frameworks */,
 				C392A11F2437B73700C16933 /* Resources */,
@@ -1414,13 +1414,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3D28EB52437927300B8F979 /* Build configuration list for PBXNativeTarget "Auto Sample" */;
 			buildPhases = (
-				44E6F838650BC84897F78153 /* [CP] Check Pods Manifest.lock */,
+				2505D0780EABA63549CF0E1C /* [CP] Check Pods Manifest.lock */,
 				C3D28E982437927100B8F979 /* Sources */,
 				C3D28E992437927100B8F979 /* Frameworks */,
 				C3D28E9A2437927100B8F979 /* Resources */,
 				C392A11C2437B70500C16933 /* Embed Foundation Extensions */,
 				C3FF3B0D2437C6B200B6B412 /* Embed Watch Content */,
-				2FA528D349E2081005EC98F4 /* [CP] Embed Pods Frameworks */,
+				A4CDCF422B50FBD28CD4F005 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1438,13 +1438,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3D28F1E24379F8F00B8F979 /* Build configuration list for PBXNativeTarget "Manual Sample" */;
 			buildPhases = (
-				8B1F4D0916512B136BF9A7B1 /* [CP] Check Pods Manifest.lock */,
+				C1F08BA6571F3BEC3885B715 /* [CP] Check Pods Manifest.lock */,
 				C3D28F0224379F8F00B8F979 /* Sources */,
 				C3D28F1724379F8F00B8F979 /* Frameworks */,
 				C3D28F1824379F8F00B8F979 /* Resources */,
 				C392A12D2437B73700C16933 /* Embed Foundation Extensions */,
 				C3FF3B382437C6D600B6B412 /* Embed Watch Content */,
-				28630BED18C9BEE849285162 /* [CP] Embed Pods Frameworks */,
+				0117E354CA4CE194C592BC12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1479,11 +1479,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3FF3B062437C6B200B6B412 /* Build configuration list for PBXNativeTarget "Auto Watch Extension" */;
 			buildPhases = (
-				B1498C94C617967B4819D310 /* [CP] Check Pods Manifest.lock */,
+				36403E775AB6C26F710532F9 /* [CP] Check Pods Manifest.lock */,
 				C3FF3AED2437C6B100B6B412 /* Sources */,
 				C3FF3AEE2437C6B100B6B412 /* Frameworks */,
 				C3FF3AEF2437C6B100B6B412 /* Resources */,
-				B242FEE7F11512D14D1FA125 /* [CP] Embed Pods Frameworks */,
+				B1063A86586614C243D90C2D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1515,11 +1515,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3FF3B312437C6D600B6B412 /* Build configuration list for PBXNativeTarget "Manual Watch Extension" */;
 			buildPhases = (
-				38B87506B29DB882FE18E042 /* [CP] Check Pods Manifest.lock */,
+				2D0FB59B85754BA6B4B310EB /* [CP] Check Pods Manifest.lock */,
 				C3FF3B182437C6D500B6B412 /* Sources */,
 				C3FF3B192437C6D500B6B412 /* Frameworks */,
 				C3FF3B1A2437C6D500B6B412 /* Resources */,
-				4D1AB33700AD831D71D68AEF /* [CP] Embed Pods Frameworks */,
+				E722CEF9B79916B5A98BCEFB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1538,7 +1538,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1600;
 				ORGANIZATIONNAME = Acoustic;
 				TargetAttributes = {
 					3437CCC328D91D7900F897D7 = {
@@ -1847,29 +1847,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1EDC4EE02BF085C67B572CAF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Auto Notification Service-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		28630BED18C9BEE849285162 /* [CP] Embed Pods Frameworks */ = {
+		0117E354CA4CE194C592BC12 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1886,68 +1864,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Manual Sample/Pods-Manual Sample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2FA528D349E2081005EC98F4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Auto Sample/Pods-Auto Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Auto Sample/Pods-Auto Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Auto Sample/Pods-Auto Sample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		38B87506B29DB882FE18E042 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Manual Watch Extension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		43E0CF2A183E16A2C5EE5B9E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Manual Notification Service-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		44E6F838650BC84897F78153 /* [CP] Check Pods Manifest.lock */ = {
+		2505D0780EABA63549CF0E1C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1969,24 +1886,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4D1AB33700AD831D71D68AEF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8B1F4D0916512B136BF9A7B1 /* [CP] Check Pods Manifest.lock */ = {
+		2D0FB59B85754BA6B4B310EB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2001,14 +1901,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Manual Sample-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Manual Watch Extension-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B1498C94C617967B4819D310 /* [CP] Check Pods Manifest.lock */ = {
+		36403E775AB6C26F710532F9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2030,7 +1930,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B242FEE7F11512D14D1FA125 /* [CP] Embed Pods Frameworks */ = {
+		A4CDCF422B50FBD28CD4F005 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Auto Sample/Pods-Auto Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Auto Sample/Pods-Auto Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Auto Sample/Pods-Auto Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1063A86586614C243D90C2D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2045,6 +1962,89 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Auto Watch Extension/Pods-Auto Watch Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1F08BA6571F3BEC3885B715 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Manual Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1F1297E9AB2FDEB7EB846DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Auto Notification Service-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E29F537D4E3BD52922E261F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Manual Notification Service-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E722CEF9B79916B5A98BCEFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2387,7 +2387,7 @@
 				INFOPLIST_FILE = "plugins/Image Carousel Plugin/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2417,7 +2417,7 @@
 				INFOPLIST_FILE = "plugins/Image Carousel Plugin/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2443,7 +2443,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = "Auto Sample Local-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2473,7 +2473,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = "Auto Sample Local-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2501,7 +2501,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = "Auto Notification Service Local-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2530,7 +2530,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = "Auto Notification Service Local-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2564,7 +2564,7 @@
 				INFOPLIST_FILE = "Carousel Local-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2594,7 +2594,7 @@
 				INFOPLIST_FILE = "Carousel Local-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2612,7 +2612,7 @@
 		};
 		C392A11A2437B70500C16933 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E411DFF0206F214EACA60FD6 /* Pods-Auto Notification Service.debug.xcconfig */;
+			baseConfigurationReference = 0A8C1FF55E04B5824B5F9AAF /* Pods-Auto Notification Service.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Auto Notification Service.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -2620,7 +2620,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = "Notification Service/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2642,7 +2642,7 @@
 		};
 		C392A11B2437B70500C16933 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B529D3E6D631DB779C999051 /* Pods-Auto Notification Service.release.xcconfig */;
+			baseConfigurationReference = B3285778746453F01095B4A9 /* Pods-Auto Notification Service.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Auto Notification Service.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -2650,7 +2650,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = "Notification Service/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2672,7 +2672,7 @@
 		};
 		C392A12B2437B73700C16933 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1373B15B74D03E37DBE9ED06 /* Pods-Manual Notification Service.debug.xcconfig */;
+			baseConfigurationReference = C5B096FEB3958B23B032B55F /* Pods-Manual Notification Service.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Manual Notification Service.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -2680,7 +2680,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Notification Service/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2702,7 +2702,7 @@
 		};
 		C392A12C2437B73700C16933 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27CE2E16ECF2B75B105BC46B /* Pods-Manual Notification Service.release.xcconfig */;
+			baseConfigurationReference = DB73047ADC6FCFD222DE656E /* Pods-Manual Notification Service.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Manual Notification Service.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -2710,7 +2710,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Notification Service/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2783,7 +2783,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 3.8.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -2839,7 +2839,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 3.8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -2850,7 +2850,7 @@
 		};
 		C3D28EB62437927300B8F979 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9165B784D65F7B63C9DEFE02 /* Pods-Auto Sample.debug.xcconfig */;
+			baseConfigurationReference = A01C78B1697EDBEFCF3B329E /* Pods-Auto Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2859,7 +2859,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "iOS App/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2881,7 +2881,7 @@
 		};
 		C3D28EB72437927300B8F979 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4193C2A151A1C935FDD4DF37 /* Pods-Auto Sample.release.xcconfig */;
+			baseConfigurationReference = 844FC9A4A3C8B23BC59CA0D7 /* Pods-Auto Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2890,7 +2890,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "iOS App/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2911,7 +2911,7 @@
 		};
 		C3D28F1F24379F8F00B8F979 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02CF03007A9F524C76D1AA41 /* Pods-Manual Sample.debug.xcconfig */;
+			baseConfigurationReference = 04872914E60CFCF095D68BFD /* Pods-Manual Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "iOS App/Shared/Sample.entitlements";
@@ -2925,7 +2925,7 @@
 					"MANUAL=1",
 				);
 				INFOPLIST_FILE = "iOS App/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2945,7 +2945,7 @@
 		};
 		C3D28F2024379F8F00B8F979 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EB51D010E5717884A13FE23 /* Pods-Manual Sample.release.xcconfig */;
+			baseConfigurationReference = 47B00A776F3D3D293B8F84A9 /* Pods-Manual Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "iOS App/Shared/Sample.entitlements";
@@ -2955,7 +2955,7 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = "MANUAL=1";
 				INFOPLIST_FILE = "iOS App/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2975,7 +2975,7 @@
 		};
 		C3FF3B072437C6B200B6B412 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DA148D1E8B23F3C619A267A /* Pods-Auto Watch Extension.debug.xcconfig */;
+			baseConfigurationReference = 0B13488C683E640C21B3CACB /* Pods-Auto Watch Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "Auto Watch Extension.entitlements";
@@ -3001,7 +3001,7 @@
 		};
 		C3FF3B082437C6B200B6B412 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17043135E8E49C28FD765AD4 /* Pods-Auto Watch Extension.release.xcconfig */;
+			baseConfigurationReference = E53AB08AD1A63F14C0C0E7AB /* Pods-Auto Watch Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "Auto Watch Extension.entitlements";
@@ -3065,7 +3065,7 @@
 		};
 		C3FF3B322437C6D600B6B412 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAD6ECA5A406FD264B90B2D7 /* Pods-Manual Watch Extension.debug.xcconfig */;
+			baseConfigurationReference = FB2D9EDD5D13DF60D255A241 /* Pods-Manual Watch Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "Manual Watch Extension.entitlements";
@@ -3090,7 +3090,7 @@
 		};
 		C3FF3B332437C6D600B6B412 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE7E4ACA6B420625744A0A14 /* Pods-Manual Watch Extension.release.xcconfig */;
+			baseConfigurationReference = 2E119E62ACB680B80587719C /* Pods-Manual Watch Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "Manual Watch Extension.entitlements";
