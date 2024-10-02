@@ -1,5 +1,5 @@
 /*
- * Copyright © 2011, 2020 Acoustic, L.P. All rights reserved.
+ * Copyright (C) 2024 Acoustic, L.P. All rights reserved.
  *
  * NOTICE: This file contains material that is confidential and proprietary to
  * Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -239,7 +239,7 @@
     return false;
 }
 
-- (BOOL)application:(UIApplication *)application shouldRestoreApplicationState:(NSCoder *)coder {
+- (BOOL)application:(UIApplication *)application shouldRestoreSecureApplicationState:(NSCoder *)coder {
     NSDictionary * state = [coder decodeObjectForKey:@"state"];
     if([StateController stateIsRestorable: state]) {
         self.state = state;
