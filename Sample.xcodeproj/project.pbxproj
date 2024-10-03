@@ -12,12 +12,10 @@
 		3437CCD128D91D7900F897D7 /* Carousel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3437CCC428D91D7900F897D7 /* Carousel.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6D2E78BC2B69BEE500370B7D /* AcousticMobilePush in Frameworks */ = {isa = PBXBuildFile; productRef = 6D2E78BB2B69BEE500370B7D /* AcousticMobilePush */; };
 		6D2E78BF2B69BF0500370B7D /* AcousticMobilePushNotification in Frameworks */ = {isa = PBXBuildFile; productRef = 6D2E78BE2B69BF0500370B7D /* AcousticMobilePushNotification */; };
-		6D2E78C22B69BF2A00370B7D /* AcousticMobilePushWatch in Frameworks */ = {isa = PBXBuildFile; productRef = 6D2E78C12B69BF2A00370B7D /* AcousticMobilePushWatch */; };
 		6D2E78C42B69BF5900370B7D /* AcousticMobilePush in Frameworks */ = {isa = PBXBuildFile; productRef = 6D2E78C32B69BF5900370B7D /* AcousticMobilePush */; };
 		6D2E78C62B69BF5F00370B7D /* AcousticMobilePushNotification in Frameworks */ = {isa = PBXBuildFile; productRef = 6D2E78C52B69BF5F00370B7D /* AcousticMobilePushNotification */; };
 		6D2E78C82B69BF6600370B7D /* AcousticMobilePushNotification in Frameworks */ = {isa = PBXBuildFile; productRef = 6D2E78C72B69BF6600370B7D /* AcousticMobilePushNotification */; };
 		6D2E78CA2B69BF7300370B7D /* AcousticMobilePushNotification in Frameworks */ = {isa = PBXBuildFile; productRef = 6D2E78C92B69BF7300370B7D /* AcousticMobilePushNotification */; };
-		6D2E78CC2B69BF7E00370B7D /* AcousticMobilePushWatch in Frameworks */ = {isa = PBXBuildFile; productRef = 6D2E78CB2B69BF7E00370B7D /* AcousticMobilePushWatch */; };
 		C392A1142437B70500C16933 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = C392A1132437B70500C16933 /* NotificationService.m */; };
 		C392A1182437B70500C16933 /* Auto Notification Service.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C392A1102437B70500C16933 /* Auto Notification Service.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C392A1252437B73700C16933 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = C392A1242437B73700C16933 /* NotificationService.m */; };
@@ -151,29 +149,7 @@
 		C3D28FE32437A1C200B8F979 /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F872437A0EA00B8F979 /* ExampleViewController.xib */; };
 		C3D28FE42437A1C900B8F979 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F8A2437A0EA00B8F979 /* ExampleViewController.m */; };
 		C3FCF4F2245A1E3600FD47B4 /* MceConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F2A2437A0C900B8F979 /* MceConfig.json */; };
-		C3FCF4F3245A1E3700FD47B4 /* MceConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F2A2437A0C900B8F979 /* MceConfig.json */; };
 		C3FF3AA92437C21900B6B412 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28EBF24379F7D00B8F979 /* Config.m */; };
-		C3FF3AF22437C6B100B6B412 /* Auto Watch Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C3FF3AF12437C6B100B6B412 /* Auto Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C3FF3B052437C6B200B6B412 /* Auto Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C3FF3AE52437C6B100B6B412 /* Auto Watch.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C3FF3B1D2437C6D500B6B412 /* Manual Watch Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C3FF3B1C2437C6D500B6B412 /* Manual Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C3FF3B232437C6D500B6B412 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B222437C6D500B6B412 /* InterfaceController.m */; };
-		C3FF3B292437C6D500B6B412 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B282437C6D500B6B412 /* NotificationController.m */; };
-		C3FF3B2B2437C6D600B6B412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B2A2437C6D600B6B412 /* Assets.xcassets */; };
-		C3FF3B302437C6D600B6B412 /* Manual Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C3FF3B102437C6D500B6B412 /* Manual Watch.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C3FF3B432437C7A500B6B412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B3A2437C79700B6B412 /* Assets.xcassets */; };
-		C3FF3B442437C7A600B6B412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B3A2437C79700B6B412 /* Assets.xcassets */; };
-		C3FF3B452437C7AE00B6B412 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B3B2437C79700B6B412 /* Interface.storyboard */; };
-		C3FF3B462437C7AF00B6B412 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B3B2437C79700B6B412 /* Interface.storyboard */; };
-		C3FF3B592437C95B00B6B412 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B222437C6D500B6B412 /* InterfaceController.m */; };
-		C3FF3B5B2437C96600B6B412 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B282437C6D500B6B412 /* NotificationController.m */; };
-		C3FF3B5C2437C96800B6B412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B2A2437C6D600B6B412 /* Assets.xcassets */; };
-		C3FF3B662437CA6100B6B412 /* AttributesController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B612437CA6100B6B412 /* AttributesController.m */; };
-		C3FF3B672437CA6100B6B412 /* EventsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B632437CA6100B6B412 /* EventsController.m */; };
-		C3FF3B682437CA6100B6B412 /* RegistrationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B652437CA6100B6B412 /* RegistrationController.m */; };
-		C3FF3B702437CAB600B6B412 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28EBF24379F7D00B8F979 /* Config.m */; };
-		C3FF3B712437CAED00B6B412 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B5D2437CA5200B6B412 /* ExtensionDelegate.m */; };
-		C3FF3B722437CBA700B6B412 /* HandOffController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F7B2437A0EA00B8F979 /* HandOffController.m */; };
-		C3FF3B732437CBA800B6B412 /* HandOffController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F7B2437A0EA00B8F979 /* HandOffController.m */; };
 		C3FF3B772437CD1400B6B412 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B762437CD1400B6B412 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -206,34 +182,6 @@
 			remoteGlobalIDString = C392A1202437B73700C16933;
 			remoteInfo = "Manual Notification Service";
 		};
-		C3FF3AF32437C6B100B6B412 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3D28E942437927100B8F979 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3FF3AF02437C6B100B6B412;
-			remoteInfo = "Watch Extension";
-		};
-		C3FF3B032437C6B200B6B412 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3D28E942437927100B8F979 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3FF3AE42437C6B100B6B412;
-			remoteInfo = Watch;
-		};
-		C3FF3B1E2437C6D500B6B412 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3D28E942437927100B8F979 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3FF3B1B2437C6D500B6B412;
-			remoteInfo = "Watch Extension";
-		};
-		C3FF3B2E2437C6D600B6B412 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3D28E942437927100B8F979 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3FF3B0F2437C6D500B6B412;
-			remoteInfo = Watch;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -260,37 +208,14 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3FF3B092437C6B200B6B412 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				C3FF3AF22437C6B100B6B412 /* Auto Watch Extension.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C3FF3B0D2437C6B200B6B412 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				C3FF3B052437C6B200B6B412 /* Auto Watch.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3B342437C6D600B6B412 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				C3FF3B1D2437C6D500B6B412 /* Manual Watch Extension.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C3FF3B382437C6D600B6B412 /* Embed Watch Content */ = {
@@ -299,7 +224,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				C3FF3B302437C6D600B6B412 /* Manual Watch.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,8 +237,6 @@
 		3437CCE828DB6B5B00F897D7 /* Carousel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Carousel.entitlements; sourceTree = SOURCE_ROOT; };
 		C360F5DD24ABF92200573174 /* Auto Notification Service.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Auto Notification Service.entitlements"; sourceTree = "<group>"; };
 		C360F5DE24ABF93F00573174 /* Manual Notification Service.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Manual Notification Service.entitlements"; sourceTree = "<group>"; };
-		C360F5DF24ABF96D00573174 /* Auto Watch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Auto Watch Extension.entitlements"; sourceTree = "<group>"; };
-		C360F5E024ABF99B00573174 /* Manual Watch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Manual Watch Extension.entitlements"; sourceTree = "<group>"; };
 		C392A1102437B70500C16933 /* Auto Notification Service.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Auto Notification Service.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C392A1122437B70500C16933 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
 		C392A1132437B70500C16933 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
@@ -446,28 +368,6 @@
 		C3D28F892437A0EA00B8F979 /* ExamplePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplePlugin.h; sourceTree = "<group>"; };
 		C3D28F8A2437A0EA00B8F979 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
 		C3FF3AB02437C4DC00B6B412 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3FF3AE52437C6B100B6B412 /* Auto Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3FF3AF12437C6B100B6B412 /* Auto Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Auto Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3FF3B102437C6D500B6B412 /* Manual Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manual Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3FF3B1C2437C6D500B6B412 /* Manual Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Manual Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3FF3B212437C6D500B6B412 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
-		C3FF3B222437C6D500B6B412 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
-		C3FF3B272437C6D500B6B412 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
-		C3FF3B282437C6D500B6B412 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
-		C3FF3B2A2437C6D600B6B412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3FF3B2C2437C6D600B6B412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3FF3B2D2437C6D600B6B412 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		C3FF3B3A2437C79700B6B412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3FF3B3C2437C79700B6B412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		C3FF3B3D2437C79700B6B412 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3FF3B5D2437CA5200B6B412 /* ExtensionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
-		C3FF3B5E2437CA5200B6B412 /* ExtensionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
-		C3FF3B602437CA6100B6B412 /* RegistrationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationController.h; sourceTree = "<group>"; };
-		C3FF3B612437CA6100B6B412 /* AttributesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributesController.m; sourceTree = "<group>"; };
-		C3FF3B622437CA6100B6B412 /* EventsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsController.h; sourceTree = "<group>"; };
-		C3FF3B632437CA6100B6B412 /* EventsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsController.m; sourceTree = "<group>"; };
-		C3FF3B642437CA6100B6B412 /* AttributesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributesController.h; sourceTree = "<group>"; };
-		C3FF3B652437CA6100B6B412 /* RegistrationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationController.m; sourceTree = "<group>"; };
 		C3FF3B692437CA9300B6B412 /* AcousticMobilePushWatch.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AcousticMobilePushWatch.xcframework; path = ../../AcousticMobilePushWatch.xcframework; sourceTree = "<group>"; };
 		C3FF3B762437CD1400B6B412 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -516,22 +416,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3FF3AEE2437C6B100B6B412 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D2E78C22B69BF2A00370B7D /* AcousticMobilePushWatch in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3B192437C6D500B6B412 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D2E78CC2B69BF7E00370B7D /* AcousticMobilePushWatch in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -556,8 +440,6 @@
 		C3D28E932437927100B8F979 = {
 			isa = PBXGroup;
 			children = (
-				C360F5E024ABF99B00573174 /* Manual Watch Extension.entitlements */,
-				C360F5DF24ABF96D00573174 /* Auto Watch Extension.entitlements */,
 				C360F5DE24ABF93F00573174 /* Manual Notification Service.entitlements */,
 				C360F5DD24ABF92200573174 /* Auto Notification Service.entitlements */,
 				3437CCE828DB6B5B00F897D7 /* Carousel.entitlements */,
@@ -565,8 +447,6 @@
 				C3D28F2C2437A0EA00B8F979 /* plugins */,
 				C3FF3AAA2437C48200B6B412 /* Notification Service */,
 				C3D28E9E2437927100B8F979 /* iOS App */,
-				C3FF3B112437C6D500B6B412 /* Watch */,
-				C3FF3B202437C6D500B6B412 /* Watch Extension */,
 				C3D28E9D2437927100B8F979 /* Products */,
 				C3D28F222437A09C00B8F979 /* Frameworks */,
 			);
@@ -579,10 +459,6 @@
 				C3D28F2124379F8F00B8F979 /* Manual Sample.app */,
 				C392A1102437B70500C16933 /* Auto Notification Service.appex */,
 				C392A1212437B73700C16933 /* Manual Notification Service.appex */,
-				C3FF3AE52437C6B100B6B412 /* Auto Watch.app */,
-				C3FF3AF12437C6B100B6B412 /* Auto Watch Extension.appex */,
-				C3FF3B102437C6D500B6B412 /* Manual Watch.app */,
-				C3FF3B1C2437C6D500B6B412 /* Manual Watch Extension.appex */,
 				3437CCC428D91D7900F897D7 /* Carousel.appex */,
 			);
 			name = Products;
@@ -912,64 +788,6 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		C3FF3B112437C6D500B6B412 /* Watch */ = {
-			isa = PBXGroup;
-			children = (
-				C3FF3B392437C79700B6B412 /* Shared */,
-			);
-			name = Watch;
-			path = "Watch App";
-			sourceTree = "<group>";
-		};
-		C3FF3B202437C6D500B6B412 /* Watch Extension */ = {
-			isa = PBXGroup;
-			children = (
-				C3FF3B482437C82900B6B412 /* Manual */,
-				C3FF3B472437C7DB00B6B412 /* Shared */,
-			);
-			path = "Watch Extension";
-			sourceTree = "<group>";
-		};
-		C3FF3B392437C79700B6B412 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				C3FF3B3A2437C79700B6B412 /* Assets.xcassets */,
-				C3FF3B3B2437C79700B6B412 /* Interface.storyboard */,
-				C3FF3B3D2437C79700B6B412 /* Info.plist */,
-			);
-			name = Shared;
-			path = "Watch App/Shared";
-			sourceTree = SOURCE_ROOT;
-		};
-		C3FF3B472437C7DB00B6B412 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				C3FF3B642437CA6100B6B412 /* AttributesController.h */,
-				C3FF3B612437CA6100B6B412 /* AttributesController.m */,
-				C3FF3B622437CA6100B6B412 /* EventsController.h */,
-				C3FF3B632437CA6100B6B412 /* EventsController.m */,
-				C3FF3B602437CA6100B6B412 /* RegistrationController.h */,
-				C3FF3B652437CA6100B6B412 /* RegistrationController.m */,
-				C3FF3B212437C6D500B6B412 /* InterfaceController.h */,
-				C3FF3B222437C6D500B6B412 /* InterfaceController.m */,
-				C3FF3B272437C6D500B6B412 /* NotificationController.h */,
-				C3FF3B282437C6D500B6B412 /* NotificationController.m */,
-				C3FF3B2A2437C6D600B6B412 /* Assets.xcassets */,
-				C3FF3B2C2437C6D600B6B412 /* Info.plist */,
-				C3FF3B2D2437C6D600B6B412 /* PushNotificationPayload.apns */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		C3FF3B482437C82900B6B412 /* Manual */ = {
-			isa = PBXGroup;
-			children = (
-				C3FF3B5E2437CA5200B6B412 /* ExtensionDelegate.h */,
-				C3FF3B5D2437CA5200B6B412 /* ExtensionDelegate.m */,
-			);
-			path = Manual;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1045,7 +863,6 @@
 			dependencies = (
 				C392A1172437B70500C16933 /* PBXTargetDependency */,
 				3437CCD028D91D7900F897D7 /* PBXTargetDependency */,
-				C3FF3B042437C6B200B6B412 /* PBXTargetDependency */,
 			);
 			name = "Auto Sample";
 			packageProductDependencies = (
@@ -1071,7 +888,6 @@
 			dependencies = (
 				3437CCE528DB65DA00F897D7 /* PBXTargetDependency */,
 				C392A1282437B73700C16933 /* PBXTargetDependency */,
-				C3FF3B2F2437C6D600B6B412 /* PBXTargetDependency */,
 			);
 			name = "Manual Sample";
 			packageProductDependencies = (
@@ -1081,80 +897,6 @@
 			productName = Sample;
 			productReference = C3D28F2124379F8F00B8F979 /* Manual Sample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C3FF3AE42437C6B100B6B412 /* Auto Watch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3FF3B0A2437C6B200B6B412 /* Build configuration list for PBXNativeTarget "Auto Watch" */;
-			buildPhases = (
-				C3FF3AE32437C6B100B6B412 /* Resources */,
-				C3FF3B092437C6B200B6B412 /* Embed Foundation Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C3FF3AF42437C6B100B6B412 /* PBXTargetDependency */,
-			);
-			name = "Auto Watch";
-			productName = Watch;
-			productReference = C3FF3AE52437C6B100B6B412 /* Auto Watch.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		C3FF3AF02437C6B100B6B412 /* Auto Watch Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3FF3B062437C6B200B6B412 /* Build configuration list for PBXNativeTarget "Auto Watch Extension" */;
-			buildPhases = (
-				C3FF3AED2437C6B100B6B412 /* Sources */,
-				C3FF3AEE2437C6B100B6B412 /* Frameworks */,
-				C3FF3AEF2437C6B100B6B412 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Auto Watch Extension";
-			packageProductDependencies = (
-				6D2E78C12B69BF2A00370B7D /* AcousticMobilePushWatch */,
-			);
-			productName = "Watch Extension";
-			productReference = C3FF3AF12437C6B100B6B412 /* Auto Watch Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
-		C3FF3B0F2437C6D500B6B412 /* Manual Watch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3FF3B352437C6D600B6B412 /* Build configuration list for PBXNativeTarget "Manual Watch" */;
-			buildPhases = (
-				C3FF3B0E2437C6D500B6B412 /* Resources */,
-				C3FF3B342437C6D600B6B412 /* Embed Foundation Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C3FF3B1F2437C6D500B6B412 /* PBXTargetDependency */,
-			);
-			name = "Manual Watch";
-			productName = Watch;
-			productReference = C3FF3B102437C6D500B6B412 /* Manual Watch.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		C3FF3B1B2437C6D500B6B412 /* Manual Watch Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3FF3B312437C6D600B6B412 /* Build configuration list for PBXNativeTarget "Manual Watch Extension" */;
-			buildPhases = (
-				C3FF3B182437C6D500B6B412 /* Sources */,
-				C3FF3B192437C6D500B6B412 /* Frameworks */,
-				C3FF3B1A2437C6D500B6B412 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Manual Watch Extension";
-			packageProductDependencies = (
-				6D2E78CB2B69BF7E00370B7D /* AcousticMobilePushWatch */,
-			);
-			productName = "Watch Extension";
-			productReference = C3FF3B1C2437C6D500B6B412 /* Manual Watch Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -1180,18 +922,6 @@
 						CreatedOnToolsVersion = 11.4;
 						LastSwiftMigration = 1140;
 					};
-					C3FF3AE42437C6B100B6B412 = {
-						CreatedOnToolsVersion = 11.4;
-					};
-					C3FF3AF02437C6B100B6B412 = {
-						CreatedOnToolsVersion = 11.4;
-					};
-					C3FF3B0F2437C6D500B6B412 = {
-						CreatedOnToolsVersion = 11.4;
-					};
-					C3FF3B1B2437C6D500B6B412 = {
-						CreatedOnToolsVersion = 11.4;
-					};
 				};
 			};
 			buildConfigurationList = C3D28E972437927100B8F979 /* Build configuration list for PBXProject "Sample" */;
@@ -1206,7 +936,6 @@
 			packageReferences = (
 				6D2E78BA2B69BEE500370B7D /* XCRemoteSwiftPackageReference "AcousticMobilePushDebug-SP" */,
 				6D2E78BD2B69BF0500370B7D /* XCRemoteSwiftPackageReference "AcousticMobilePushNotificationDebug-SP" */,
-				6D2E78C02B69BF2A00370B7D /* XCRemoteSwiftPackageReference "AcousticMobilePushWatchDebug-SP" */,
 			);
 			productRefGroup = C3D28E9D2437927100B8F979 /* Products */;
 			projectDirPath = "";
@@ -1217,10 +946,6 @@
 				C392A10F2437B70500C16933 /* Auto Notification Service */,
 				3437CCC328D91D7900F897D7 /* Carousel */,
 				C392A1202437B73700C16933 /* Manual Notification Service */,
-				C3FF3AE42437C6B100B6B412 /* Auto Watch */,
-				C3FF3AF02437C6B100B6B412 /* Auto Watch Extension */,
-				C3FF3B0F2437C6D500B6B412 /* Manual Watch */,
-				C3FF3B1B2437C6D500B6B412 /* Manual Watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -1298,41 +1023,6 @@
 				C3D28F1B24379F8F00B8F979 /* LaunchScreen.xib in Resources */,
 				C3D28FC12437A11200B8F979 /* MCEInboxDefaultTemplateDisplay.xib in Resources */,
 				C3D28F1D24379F8F00B8F979 /* LaunchScreen.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3AE32437C6B100B6B412 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3FF3B452437C7AE00B6B412 /* Interface.storyboard in Resources */,
-				C3FF3B432437C7A500B6B412 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3AEF2437C6B100B6B412 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3FF3B5C2437C96800B6B412 /* Assets.xcassets in Resources */,
-				C3FCF4F3245A1E3700FD47B4 /* MceConfig.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3B0E2437C6D500B6B412 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3FF3B462437C7AF00B6B412 /* Interface.storyboard in Resources */,
-				C3FF3B442437C7A600B6B412 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3B1A2437C6D500B6B412 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3FF3B2B2437C6D600B6B412 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1467,31 +1157,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3FF3AED2437C6B100B6B412 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3FF3B592437C95B00B6B412 /* InterfaceController.m in Sources */,
-				C3FF3B672437CA6100B6B412 /* EventsController.m in Sources */,
-				C3FF3B662437CA6100B6B412 /* AttributesController.m in Sources */,
-				C3FF3B722437CBA700B6B412 /* HandOffController.m in Sources */,
-				C3FF3B5B2437C96600B6B412 /* NotificationController.m in Sources */,
-				C3FF3B682437CA6100B6B412 /* RegistrationController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3B182437C6D500B6B412 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3FF3B732437CBA800B6B412 /* HandOffController.m in Sources */,
-				C3FF3B702437CAB600B6B412 /* Config.m in Sources */,
-				C3FF3B232437C6D500B6B412 /* InterfaceController.m in Sources */,
-				C3FF3B712437CAED00B6B412 /* ExtensionDelegate.m in Sources */,
-				C3FF3B292437C6D500B6B412 /* NotificationController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1515,28 +1180,6 @@
 			isa = PBXTargetDependency;
 			target = C392A1202437B73700C16933 /* Manual Notification Service */;
 			targetProxy = C392A1272437B73700C16933 /* PBXContainerItemProxy */;
-		};
-		C3FF3AF42437C6B100B6B412 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C3FF3AF02437C6B100B6B412 /* Auto Watch Extension */;
-			targetProxy = C3FF3AF32437C6B100B6B412 /* PBXContainerItemProxy */;
-		};
-		C3FF3B042437C6B200B6B412 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			platformFilter = ios;
-			target = C3FF3AE42437C6B100B6B412 /* Auto Watch */;
-			targetProxy = C3FF3B032437C6B200B6B412 /* PBXContainerItemProxy */;
-		};
-		C3FF3B1F2437C6D500B6B412 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C3FF3B1B2437C6D500B6B412 /* Manual Watch Extension */;
-			targetProxy = C3FF3B1E2437C6D500B6B412 /* PBXContainerItemProxy */;
-		};
-		C3FF3B2F2437C6D600B6B412 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			platformFilter = ios;
-			target = C3FF3B0F2437C6D500B6B412 /* Manual Watch */;
-			targetProxy = C3FF3B2E2437C6D600B6B412 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1563,14 +1206,6 @@
 				C3D28F682437A0EA00B8F979 /* Base */,
 			);
 			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
-		C3FF3B3B2437C79700B6B412 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3FF3B3C2437C79700B6B412 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1985,180 +1620,6 @@
 			};
 			name = Release;
 		};
-		C3FF3B072437C6B200B6B412 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "Auto Watch Extension.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Watch Extension/Shared/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Debug;
-		};
-		C3FF3B082437C6B200B6B412 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "Auto Watch Extension.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Watch Extension/Shared/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Release;
-		};
-		C3FF3B0B2437C6B200B6B412 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				IBSC_MODULE = Watch_Extension;
-				INFOPLIST_FILE = "Watch App/Shared/Info.plist";
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Debug;
-		};
-		C3FF3B0C2437C6B200B6B412 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				IBSC_MODULE = Watch_Extension;
-				INFOPLIST_FILE = "Watch App/Shared/Info.plist";
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Release;
-		};
-		C3FF3B322437C6D600B6B412 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "Manual Watch Extension.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Watch Extension/Shared/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Debug;
-		};
-		C3FF3B332437C6D600B6B412 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "Manual Watch Extension.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Watch Extension/Shared/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Release;
-		};
-		C3FF3B362437C6D600B6B412 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				IBSC_MODULE = Watch_Extension;
-				INFOPLIST_FILE = "Watch App/Shared/Info.plist";
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Debug;
-		};
-		C3FF3B372437C6D600B6B412 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				IBSC_MODULE = Watch_Extension;
-				INFOPLIST_FILE = "Watch App/Shared/Info.plist";
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2216,42 +1677,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3FF3B062437C6B200B6B412 /* Build configuration list for PBXNativeTarget "Auto Watch Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3FF3B072437C6B200B6B412 /* Debug */,
-				C3FF3B082437C6B200B6B412 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3FF3B0A2437C6B200B6B412 /* Build configuration list for PBXNativeTarget "Auto Watch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3FF3B0B2437C6B200B6B412 /* Debug */,
-				C3FF3B0C2437C6B200B6B412 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3FF3B312437C6D600B6B412 /* Build configuration list for PBXNativeTarget "Manual Watch Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3FF3B322437C6D600B6B412 /* Debug */,
-				C3FF3B332437C6D600B6B412 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3FF3B352437C6D600B6B412 /* Build configuration list for PBXNativeTarget "Manual Watch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3FF3B362437C6D600B6B412 /* Debug */,
-				C3FF3B372437C6D600B6B412 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -2260,7 +1685,7 @@
 			repositoryURL = "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushDebug-SP";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.8.18;
+				minimumVersion = 3.9.33;
 			};
 		};
 		6D2E78BD2B69BF0500370B7D /* XCRemoteSwiftPackageReference "AcousticMobilePushNotificationDebug-SP" */ = {
@@ -2268,15 +1693,7 @@
 			repositoryURL = "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushNotificationDebug-SP";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.8.18;
-			};
-		};
-		6D2E78C02B69BF2A00370B7D /* XCRemoteSwiftPackageReference "AcousticMobilePushWatchDebug-SP" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Acoustic-Mobile-Push/AcousticMobilePushWatchDebug-SP";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.8.18;
+				minimumVersion = 3.9.33;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -2291,11 +1708,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6D2E78BD2B69BF0500370B7D /* XCRemoteSwiftPackageReference "AcousticMobilePushNotificationDebug-SP" */;
 			productName = AcousticMobilePushNotification;
-		};
-		6D2E78C12B69BF2A00370B7D /* AcousticMobilePushWatch */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6D2E78C02B69BF2A00370B7D /* XCRemoteSwiftPackageReference "AcousticMobilePushWatchDebug-SP" */;
-			productName = AcousticMobilePushWatch;
 		};
 		6D2E78C32B69BF5900370B7D /* AcousticMobilePush */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -2316,11 +1728,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6D2E78BD2B69BF0500370B7D /* XCRemoteSwiftPackageReference "AcousticMobilePushNotificationDebug-SP" */;
 			productName = AcousticMobilePushNotification;
-		};
-		6D2E78CB2B69BF7E00370B7D /* AcousticMobilePushWatch */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6D2E78C02B69BF2A00370B7D /* XCRemoteSwiftPackageReference "AcousticMobilePushWatchDebug-SP" */;
-			productName = AcousticMobilePushWatch;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
