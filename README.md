@@ -34,34 +34,22 @@ pod 'AcousticMobilePush'
 pod 'AcousticMobilePushNotification'
 ```
 
-If iWatch is used, add iwatch extension
-```
-pod 'AcousticMobilePushWatch'
-```
-
 In the respective targets for your project in the Podfile add the following line if you want to use AcousticMobilePush SDK's debug version
 ```
 pod 'AcousticMobilePushDebug'
 pod 'AcousticMobilePushNotificationDebug'
 ```
 
-If iWatch is used, add iwatch extension
-```
-pod 'AcousticMobilePushWatchDebug'
-```
-
-You will notice that by default the sample application uses `pod 'AcousticMobilePushDebug'`,`pod 'AcousticMobilePushDebug'` and `pod 'AcousticMobilePushNotificationDebug'`
+You will notice that by default the sample application uses `pod 'AcousticMobilePushDebug'` and `pod 'AcousticMobilePushDebug'`
 
 Note that you can use only one of 
 ```
- pod 'AcousticMobilePushDebug'
  pod 'AcousticMobilePushDebug'
  pod 'AcousticMobilePushNotificationDebug'
  ```
  
  or 
  ```
- pod 'AcousticMobilePush'
  pod 'AcousticMobilePush'
  pod 'AcousticMobilePushNotification'
  ```

@@ -1,5 +1,5 @@
 /*
-* Copyright © 2020 Acoustic, L.P. All rights reserved.
+* Copyright (C) 2024 Acoustic, L.P. All rights reserved.
 *
 * NOTICE: This file contains material that is confidential and proprietary to
 * Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -10,14 +10,9 @@
 
 #import "NotificationDelegate.h"
 
-@interface MCENotificationDelegate : NSObject <UNUserNotificationCenterDelegate>
-+ (instancetype)sharedInstance;
-@end
-
 @implementation NotificationDelegate
-
-+ (instancetype)sharedInstance {
-    static id sharedInstance = nil;
+static NotificationDelegate *sharedInstance = nil;
++ (NotificationDelegate *)sharedInstance {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedInstance = [[self alloc] init];
@@ -33,7 +28,7 @@
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler {
 
     if(notification.request.content.userInfo[@"notification-action"]) {
-        [MCENotificationDelegate.sharedInstance userNotificationCenter: center willPresentNotification: notification withCompletionHandler: completionHandler];
+        [NotificationDelegate.sharedInstance userNotificationCenter:center willPresentNotification:notification withCompletionHandler:completionHandler];
         return;
     }
     
@@ -50,7 +45,7 @@
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void(^)(void))completionHandler API_AVAILABLE(macos(10.14), ios(10.0), watchos(3.0), tvos(10.0)) {
 
     if(response.notification.request.content.userInfo[@"notification-action"]) {
-        [MCENotificationDelegate.sharedInstance userNotificationCenter: center didReceiveNotificationResponse: response withCompletionHandler: completionHandler];
+        [NotificationDelegate.sharedInstance userNotificationCenter: center didReceiveNotificationResponse: response withCompletionHandler: completionHandler];
         return;
     }
     
