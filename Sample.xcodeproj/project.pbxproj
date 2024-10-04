@@ -353,9 +353,6 @@
 		C3D28F762437A0EA00B8F979 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		C3D28F772437A0EA00B8F979 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		C3D28F782437A0EA00B8F979 /* DisplayWebViewPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayWebViewPlugin.m; sourceTree = "<group>"; };
-		C3D28F7A2437A0EA00B8F979 /* HandOffController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandOffController.h; sourceTree = "<group>"; };
-		C3D28F7B2437A0EA00B8F979 /* HandOffController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandOffController.m; sourceTree = "<group>"; };
-		C3D28F7C2437A0EA00B8F979 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		C3D28F7E2437A0EA00B8F979 /* TextInputActionPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextInputActionPlugin.m; sourceTree = "<group>"; };
 		C3D28F7F2437A0EA00B8F979 /* TextInputActionPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextInputActionPlugin.h; sourceTree = "<group>"; };
 		C3D28F812437A0EA00B8F979 /* AddToWalletPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToWalletPlugin.h; sourceTree = "<group>"; };
@@ -561,7 +558,6 @@
 				C3D28F6D2437A0EA00B8F979 /* calendar-action */,
 				C3D28F702437A0EA00B8F979 /* snooze-action */,
 				C3D28F732437A0EA00B8F979 /* web-action */,
-				C3D28F792437A0EA00B8F979 /* watch */,
 				C3D28F7D2437A0EA00B8F979 /* text-input-action */,
 				C3D28F802437A0EA00B8F979 /* passbook-action */,
 				C3D28F852437A0EA00B8F979 /* example-action */,
@@ -726,16 +722,6 @@
 				C3D28F782437A0EA00B8F979 /* DisplayWebViewPlugin.m */,
 			);
 			path = "web-action";
-			sourceTree = "<group>";
-		};
-		C3D28F792437A0EA00B8F979 /* watch */ = {
-			isa = PBXGroup;
-			children = (
-				C3D28F7A2437A0EA00B8F979 /* HandOffController.h */,
-				C3D28F7B2437A0EA00B8F979 /* HandOffController.m */,
-				C3D28F7C2437A0EA00B8F979 /* Interface.storyboard */,
-			);
-			path = watch;
 			sourceTree = "<group>";
 		};
 		C3D28F7D2437A0EA00B8F979 /* text-input-action */ = {
