@@ -339,8 +339,6 @@
 		C3D28EE624379F7D00B8F979 /* iBeaconVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iBeaconVC.h; sourceTree = "<group>"; };
 		C3D28EE724379F7D00B8F979 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		C3D28F2124379F8F00B8F979 /* Manual Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manual Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3D28F232437A09C00B8F979 /* AcousticMobilePush.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AcousticMobilePush.xcframework; path = ../../AcousticMobilePush.xcframework; sourceTree = "<group>"; };
-		C3D28F242437A09C00B8F979 /* AcousticMobilePushNotification.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AcousticMobilePushNotification.xcframework; path = ../../AcousticMobilePushNotification.xcframework; sourceTree = "<group>"; };
 		C3D28F2A2437A0C900B8F979 /* MceConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MceConfig.json; path = ../../MceConfig.json; sourceTree = "<group>"; };
 		C3D28F2E2437A0EA00B8F979 /* ActionMenuPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionMenuPlugin.h; sourceTree = "<group>"; };
 		C3D28F2F2437A0EA00B8F979 /* ActionMenuPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionMenuPlugin.m; sourceTree = "<group>"; };
@@ -592,8 +590,6 @@
 			children = (
 				6D2E78B02B69BA6500370B7D /* AcousticMobilePush.xcframework */,
 				6D2E78B12B69BA6500370B7D /* AcousticMobilePushNotification.xcframework */,
-				C3D28F232437A09C00B8F979 /* AcousticMobilePush.xcframework */,
-				C3D28F242437A09C00B8F979 /* AcousticMobilePushNotification.xcframework */,
 				3437CCAE28D919D300F897D7 /* UserNotifications.framework */,
 				3437CCB028D919D300F897D7 /* UserNotificationsUI.framework */,
 			);
