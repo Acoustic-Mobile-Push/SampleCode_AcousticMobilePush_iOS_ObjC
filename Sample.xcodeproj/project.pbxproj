@@ -10,9 +10,8 @@
 		3437CCC528D91D7900F897D7 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3437CCAE28D919D300F897D7 /* UserNotifications.framework */; };
 		3437CCC628D91D7900F897D7 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3437CCB028D919D300F897D7 /* UserNotificationsUI.framework */; };
 		3437CCD128D91D7900F897D7 /* Carousel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3437CCC428D91D7900F897D7 /* Carousel.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		34AE1BD9772228F4D5550443 /* Pods_Auto_Watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D69050B00F4A60364BB1B5F /* Pods_Auto_Watch_Extension.framework */; };
-		561102A80E14CCDDB12989A8 /* Pods_Auto_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF7718B85EE551ACAD7F86C /* Pods_Auto_Sample.framework */; };
-		5DD236260B3DDC0562C35501 /* Pods_Auto_Notification_Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77367D2F1345EDBAB1B4A6FC /* Pods_Auto_Notification_Service.framework */; };
+		451E460FDBB3A29C9E26F10A /* Pods_Auto_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373837443E4850A17BCAFECD /* Pods_Auto_Sample.framework */; };
+		56B3835BD42A27BAA3659CC4 /* Pods_Manual_Notification_Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DFC56916DE1D93622464173 /* Pods_Manual_Notification_Service.framework */; };
 		6D468F5D2B982BE500C6FFA8 /* CarouselAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F692437A0EA00B8F979 /* CarouselAction.m */; };
 		6D468F5E2B982BE500C6FFA8 /* TextInputActionPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F7E2437A0EA00B8F979 /* TextInputActionPlugin.m */; };
 		6D468F5F2B982BE500C6FFA8 /* MCEInAppVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F5C2437A0EA00B8F979 /* MCEInAppVideoPlayerView.m */; };
@@ -86,7 +85,8 @@
 		6D468FBD2B982C1200C6FFA8 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3437CCAE28D919D300F897D7 /* UserNotifications.framework */; };
 		6D4690082B982F1400C6FFA8 /* AcousticMobilePushNotification.framework in Copy Local Framework */ = {isa = PBXBuildFile; fileRef = 6D468FEF2B982E8D00C6FFA8 /* AcousticMobilePushNotification.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6D46900A2B982F2E00C6FFA8 /* AcousticMobilePush.framework in Copy Local Framework */ = {isa = PBXBuildFile; fileRef = 6D468FEB2B982E8D00C6FFA8 /* AcousticMobilePush.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		940B124349F5F4128164B770 /* Pods_Manual_Watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E923FAD55587647F4D004F9 /* Pods_Manual_Watch_Extension.framework */; };
+		923FB2F9FA7789544EF9E933 /* Pods_Manual_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177F949AEDF5457D897D0053 /* Pods_Manual_Sample.framework */; };
+		BBE43C7E30B317ABC95B0841 /* Pods_Auto_Notification_Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2659F404D6DD27445AB682 /* Pods_Auto_Notification_Service.framework */; };
 		C392A1142437B70500C16933 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = C392A1132437B70500C16933 /* NotificationService.m */; };
 		C392A1182437B70500C16933 /* Auto Notification Service.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C392A1102437B70500C16933 /* Auto Notification Service.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C392A1252437B73700C16933 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = C392A1242437B73700C16933 /* NotificationService.m */; };
@@ -220,43 +220,12 @@
 		C3D28FE32437A1C200B8F979 /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F872437A0EA00B8F979 /* ExampleViewController.xib */; };
 		C3D28FE42437A1C900B8F979 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F8A2437A0EA00B8F979 /* ExampleViewController.m */; };
 		C3FCF4F2245A1E3600FD47B4 /* MceConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F2A2437A0C900B8F979 /* MceConfig.json */; };
-		C3FCF4F3245A1E3700FD47B4 /* MceConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F2A2437A0C900B8F979 /* MceConfig.json */; };
 		C3FF3AA92437C21900B6B412 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28EBF24379F7D00B8F979 /* Config.m */; };
-		C3FF3AF22437C6B100B6B412 /* Auto Watch Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C3FF3AF12437C6B100B6B412 /* Auto Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C3FF3B052437C6B200B6B412 /* Auto Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C3FF3AE52437C6B100B6B412 /* Auto Watch.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C3FF3B1D2437C6D500B6B412 /* Manual Watch Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C3FF3B1C2437C6D500B6B412 /* Manual Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C3FF3B232437C6D500B6B412 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B222437C6D500B6B412 /* InterfaceController.m */; };
-		C3FF3B292437C6D500B6B412 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B282437C6D500B6B412 /* NotificationController.m */; };
-		C3FF3B2B2437C6D600B6B412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B2A2437C6D600B6B412 /* Assets.xcassets */; };
-		C3FF3B302437C6D600B6B412 /* Manual Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C3FF3B102437C6D500B6B412 /* Manual Watch.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C3FF3B432437C7A500B6B412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B3A2437C79700B6B412 /* Assets.xcassets */; };
-		C3FF3B442437C7A600B6B412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B3A2437C79700B6B412 /* Assets.xcassets */; };
-		C3FF3B452437C7AE00B6B412 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B3B2437C79700B6B412 /* Interface.storyboard */; };
-		C3FF3B462437C7AF00B6B412 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B3B2437C79700B6B412 /* Interface.storyboard */; };
-		C3FF3B592437C95B00B6B412 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B222437C6D500B6B412 /* InterfaceController.m */; };
-		C3FF3B5B2437C96600B6B412 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B282437C6D500B6B412 /* NotificationController.m */; };
-		C3FF3B5C2437C96800B6B412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B2A2437C6D600B6B412 /* Assets.xcassets */; };
-		C3FF3B662437CA6100B6B412 /* AttributesController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B612437CA6100B6B412 /* AttributesController.m */; };
-		C3FF3B672437CA6100B6B412 /* EventsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B632437CA6100B6B412 /* EventsController.m */; };
-		C3FF3B682437CA6100B6B412 /* RegistrationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B652437CA6100B6B412 /* RegistrationController.m */; };
-		C3FF3B702437CAB600B6B412 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28EBF24379F7D00B8F979 /* Config.m */; };
-		C3FF3B712437CAED00B6B412 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3B5D2437CA5200B6B412 /* ExtensionDelegate.m */; };
-		C3FF3B722437CBA700B6B412 /* HandOffController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F7B2437A0EA00B8F979 /* HandOffController.m */; };
-		C3FF3B732437CBA800B6B412 /* HandOffController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F7B2437A0EA00B8F979 /* HandOffController.m */; };
 		C3FF3B772437CD1400B6B412 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3B762437CD1400B6B412 /* README.md */; };
-		D56CA9C8CEB0B8E5F5E14838 /* Pods_Manual_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85411C53604564D44DD4A308 /* Pods_Manual_Sample.framework */; };
-		DFDA300693A6F3AFCBE7FC44 /* Pods_Manual_Notification_Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B142885316AF6BC56D6FCBBD /* Pods_Manual_Notification_Service.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		3437CCCF28D91D7900F897D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3D28E942437927100B8F979 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3437CCC328D91D7900F897D7;
-			remoteInfo = Carousel;
-		};
-		3437CCE428DB65DA00F897D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C3D28E942437927100B8F979 /* Project object */;
 			proxyType = 1;
@@ -389,34 +358,6 @@
 			remoteGlobalIDString = C392A1202437B73700C16933;
 			remoteInfo = "Manual Notification Service";
 		};
-		C3FF3AF32437C6B100B6B412 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3D28E942437927100B8F979 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3FF3AF02437C6B100B6B412;
-			remoteInfo = "Watch Extension";
-		};
-		C3FF3B032437C6B200B6B412 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3D28E942437927100B8F979 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3FF3AE42437C6B100B6B412;
-			remoteInfo = Watch;
-		};
-		C3FF3B1E2437C6D500B6B412 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3D28E942437927100B8F979 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3FF3B1B2437C6D500B6B412;
-			remoteInfo = "Watch Extension";
-		};
-		C3FF3B2E2437C6D600B6B412 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3D28E942437927100B8F979 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3FF3B0F2437C6D500B6B412;
-			remoteInfo = Watch;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -487,46 +428,12 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3FF3B092437C6B200B6B412 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				C3FF3AF22437C6B100B6B412 /* Auto Watch Extension.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C3FF3B0D2437C6B200B6B412 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				C3FF3B052437C6B200B6B412 /* Auto Watch.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3B342437C6D600B6B412 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				C3FF3B1D2437C6D500B6B412 /* Manual Watch Extension.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3B382437C6D600B6B412 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				C3FF3B302437C6D600B6B412 /* Manual Watch.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,16 +441,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		02CF03007A9F524C76D1AA41 /* Pods-Manual Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Sample.debug.xcconfig"; path = "Target Support Files/Pods-Manual Sample/Pods-Manual Sample.debug.xcconfig"; sourceTree = "<group>"; };
-		1373B15B74D03E37DBE9ED06 /* Pods-Manual Notification Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Notification Service.debug.xcconfig"; path = "Target Support Files/Pods-Manual Notification Service/Pods-Manual Notification Service.debug.xcconfig"; sourceTree = "<group>"; };
-		17043135E8E49C28FD765AD4 /* Pods-Auto Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Watch Extension.release.xcconfig"; path = "Target Support Files/Pods-Auto Watch Extension/Pods-Auto Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
-		27CE2E16ECF2B75B105BC46B /* Pods-Manual Notification Service.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Notification Service.release.xcconfig"; path = "Target Support Files/Pods-Manual Notification Service/Pods-Manual Notification Service.release.xcconfig"; sourceTree = "<group>"; };
+		177F949AEDF5457D897D0053 /* Pods_Manual_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manual_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FE49B2A365D4421E6D0487 /* Pods-Manual Notification Service.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Notification Service.release.xcconfig"; path = "Target Support Files/Pods-Manual Notification Service/Pods-Manual Notification Service.release.xcconfig"; sourceTree = "<group>"; };
 		3437CCAE28D919D300F897D7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		3437CCB028D919D300F897D7 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		3437CCC428D91D7900F897D7 /* Carousel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Carousel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		3437CCE828DB6B5B00F897D7 /* Carousel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Carousel.entitlements; sourceTree = SOURCE_ROOT; };
-		4193C2A151A1C935FDD4DF37 /* Pods-Auto Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Sample.release.xcconfig"; path = "Target Support Files/Pods-Auto Sample/Pods-Auto Sample.release.xcconfig"; sourceTree = "<group>"; };
-		5EB51D010E5717884A13FE23 /* Pods-Manual Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Sample.release.xcconfig"; path = "Target Support Files/Pods-Manual Sample/Pods-Manual Sample.release.xcconfig"; sourceTree = "<group>"; };
+		373837443E4850A17BCAFECD /* Pods_Auto_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auto_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B693EEC5D2EDCE75A6E844 /* Pods-Auto Notification Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Notification Service.debug.xcconfig"; path = "Target Support Files/Pods-Auto Notification Service/Pods-Auto Notification Service.debug.xcconfig"; sourceTree = "<group>"; };
+		638BA4FCCC53906B4B0B59F9 /* Pods-Manual Notification Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Notification Service.debug.xcconfig"; path = "Target Support Files/Pods-Manual Notification Service/Pods-Manual Notification Service.debug.xcconfig"; sourceTree = "<group>"; };
 		6D468FAA2B982BE500C6FFA8 /* Auto Sample Local.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Sample Local.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D468FAB2B982BE600C6FFA8 /* Auto Sample Local-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Auto Sample Local-Info.plist"; path = "/Users/omarhernandez/git/github/SampleCode_AcousticMobilePush_iOS_ObjC/Auto Sample Local-Info.plist"; sourceTree = "<absolute>"; };
 		6D468FB72B982BF900C6FFA8 /* Auto Notification Service Local.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Auto Notification Service Local.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -551,21 +457,13 @@
 		6D468FC22B982C1200C6FFA8 /* Carousel Local.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Carousel Local.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D468FC32B982C1300C6FFA8 /* Carousel Local-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Carousel Local-Info.plist"; path = "/Users/omarhernandez/git/github/SampleCode_AcousticMobilePush_iOS_ObjC/Carousel Local-Info.plist"; sourceTree = "<absolute>"; };
 		6D468FD72B982E8D00C6FFA8 /* AcousticMobilePush.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AcousticMobilePush.xcodeproj; path = "../ca-mce-ios-sdk/sdk/Framework/AcousticMobilePush/AcousticMobilePush.xcodeproj"; sourceTree = "<group>"; };
-		6E923FAD55587647F4D004F9 /* Pods_Manual_Watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manual_Watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77367D2F1345EDBAB1B4A6FC /* Pods_Auto_Notification_Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auto_Notification_Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85411C53604564D44DD4A308 /* Pods_Manual_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manual_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D69050B00F4A60364BB1B5F /* Pods_Auto_Watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auto_Watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DA148D1E8B23F3C619A267A /* Pods-Auto Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Watch Extension.debug.xcconfig"; path = "Target Support Files/Pods-Auto Watch Extension/Pods-Auto Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		9165B784D65F7B63C9DEFE02 /* Pods-Auto Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Sample.debug.xcconfig"; path = "Target Support Files/Pods-Auto Sample/Pods-Auto Sample.debug.xcconfig"; sourceTree = "<group>"; };
-		AAD6ECA5A406FD264B90B2D7 /* Pods-Manual Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Watch Extension.debug.xcconfig"; path = "Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		ACF7718B85EE551ACAD7F86C /* Pods_Auto_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auto_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B142885316AF6BC56D6FCBBD /* Pods_Manual_Notification_Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manual_Notification_Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B529D3E6D631DB779C999051 /* Pods-Auto Notification Service.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Notification Service.release.xcconfig"; path = "Target Support Files/Pods-Auto Notification Service/Pods-Auto Notification Service.release.xcconfig"; sourceTree = "<group>"; };
-		BE7E4ACA6B420625744A0A14 /* Pods-Manual Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Watch Extension.release.xcconfig"; path = "Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		7DFC56916DE1D93622464173 /* Pods_Manual_Notification_Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manual_Notification_Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81255F6A0EFCB337A915466B /* Pods-Auto Notification Service.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Notification Service.release.xcconfig"; path = "Target Support Files/Pods-Auto Notification Service/Pods-Auto Notification Service.release.xcconfig"; sourceTree = "<group>"; };
+		92CCB39A2FE91E9C01B5417B /* Pods-Manual Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Sample.debug.xcconfig"; path = "Target Support Files/Pods-Manual Sample/Pods-Manual Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		9C2659F404D6DD27445AB682 /* Pods_Auto_Notification_Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auto_Notification_Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70CCA1D1A595A3A7E006444 /* Pods-Auto Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Sample.debug.xcconfig"; path = "Target Support Files/Pods-Auto Sample/Pods-Auto Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		C360F5DD24ABF92200573174 /* Auto Notification Service.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Auto Notification Service.entitlements"; sourceTree = "<group>"; };
 		C360F5DE24ABF93F00573174 /* Manual Notification Service.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Manual Notification Service.entitlements"; sourceTree = "<group>"; };
-		C360F5DF24ABF96D00573174 /* Auto Watch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Auto Watch Extension.entitlements"; sourceTree = "<group>"; };
-		C360F5E024ABF99B00573174 /* Manual Watch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Manual Watch Extension.entitlements"; sourceTree = "<group>"; };
 		C392A1102437B70500C16933 /* Auto Notification Service.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Auto Notification Service.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C392A1122437B70500C16933 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
 		C392A1132437B70500C16933 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
@@ -682,9 +580,6 @@
 		C3D28F762437A0EA00B8F979 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		C3D28F772437A0EA00B8F979 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		C3D28F782437A0EA00B8F979 /* DisplayWebViewPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayWebViewPlugin.m; sourceTree = "<group>"; };
-		C3D28F7A2437A0EA00B8F979 /* HandOffController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandOffController.h; sourceTree = "<group>"; };
-		C3D28F7B2437A0EA00B8F979 /* HandOffController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandOffController.m; sourceTree = "<group>"; };
-		C3D28F7C2437A0EA00B8F979 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		C3D28F7E2437A0EA00B8F979 /* TextInputActionPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextInputActionPlugin.m; sourceTree = "<group>"; };
 		C3D28F7F2437A0EA00B8F979 /* TextInputActionPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextInputActionPlugin.h; sourceTree = "<group>"; };
 		C3D28F812437A0EA00B8F979 /* AddToWalletPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToWalletPlugin.h; sourceTree = "<group>"; };
@@ -697,31 +592,10 @@
 		C3D28F892437A0EA00B8F979 /* ExamplePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplePlugin.h; sourceTree = "<group>"; };
 		C3D28F8A2437A0EA00B8F979 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
 		C3FF3AB02437C4DC00B6B412 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3FF3AE52437C6B100B6B412 /* Auto Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3FF3AF12437C6B100B6B412 /* Auto Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Auto Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3FF3B102437C6D500B6B412 /* Manual Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manual Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3FF3B1C2437C6D500B6B412 /* Manual Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Manual Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3FF3B212437C6D500B6B412 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
-		C3FF3B222437C6D500B6B412 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
-		C3FF3B272437C6D500B6B412 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
-		C3FF3B282437C6D500B6B412 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
-		C3FF3B2A2437C6D600B6B412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3FF3B2C2437C6D600B6B412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3FF3B2D2437C6D600B6B412 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		C3FF3B3A2437C79700B6B412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3FF3B3C2437C79700B6B412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		C3FF3B3D2437C79700B6B412 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3FF3B5D2437CA5200B6B412 /* ExtensionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
-		C3FF3B5E2437CA5200B6B412 /* ExtensionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
-		C3FF3B602437CA6100B6B412 /* RegistrationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationController.h; sourceTree = "<group>"; };
-		C3FF3B612437CA6100B6B412 /* AttributesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributesController.m; sourceTree = "<group>"; };
-		C3FF3B622437CA6100B6B412 /* EventsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsController.h; sourceTree = "<group>"; };
-		C3FF3B632437CA6100B6B412 /* EventsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsController.m; sourceTree = "<group>"; };
-		C3FF3B642437CA6100B6B412 /* AttributesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributesController.h; sourceTree = "<group>"; };
-		C3FF3B652437CA6100B6B412 /* RegistrationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationController.m; sourceTree = "<group>"; };
 		C3FF3B692437CA9300B6B412 /* AcousticMobilePushWatch.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AcousticMobilePushWatch.xcframework; path = ../../AcousticMobilePushWatch.xcframework; sourceTree = "<group>"; };
 		C3FF3B762437CD1400B6B412 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E411DFF0206F214EACA60FD6 /* Pods-Auto Notification Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Notification Service.debug.xcconfig"; path = "Target Support Files/Pods-Auto Notification Service/Pods-Auto Notification Service.debug.xcconfig"; sourceTree = "<group>"; };
+		C457B7B956D5858A4CE2A16B /* Pods-Auto Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Sample.release.xcconfig"; path = "Target Support Files/Pods-Auto Sample/Pods-Auto Sample.release.xcconfig"; sourceTree = "<group>"; };
+		E070A1E58FE15D5A7D573767 /* Pods-Manual Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manual Sample.release.xcconfig"; path = "Target Support Files/Pods-Manual Sample/Pods-Manual Sample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -761,7 +635,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DD236260B3DDC0562C35501 /* Pods_Auto_Notification_Service.framework in Frameworks */,
+				BBE43C7E30B317ABC95B0841 /* Pods_Auto_Notification_Service.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,7 +643,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFDA300693A6F3AFCBE7FC44 /* Pods_Manual_Notification_Service.framework in Frameworks */,
+				56B3835BD42A27BAA3659CC4 /* Pods_Manual_Notification_Service.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,7 +651,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561102A80E14CCDDB12989A8 /* Pods_Auto_Sample.framework in Frameworks */,
+				451E460FDBB3A29C9E26F10A /* Pods_Auto_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,23 +659,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D56CA9C8CEB0B8E5F5E14838 /* Pods_Manual_Sample.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3AEE2437C6B100B6B412 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34AE1BD9772228F4D5550443 /* Pods_Auto_Watch_Extension.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3B192437C6D500B6B412 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				940B124349F5F4128164B770 /* Pods_Manual_Watch_Extension.framework in Frameworks */,
+				923FB2F9FA7789544EF9E933 /* Pods_Manual_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,18 +669,14 @@
 		1FCD4B06E13C95AD6A6CF281 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E411DFF0206F214EACA60FD6 /* Pods-Auto Notification Service.debug.xcconfig */,
-				B529D3E6D631DB779C999051 /* Pods-Auto Notification Service.release.xcconfig */,
-				9165B784D65F7B63C9DEFE02 /* Pods-Auto Sample.debug.xcconfig */,
-				4193C2A151A1C935FDD4DF37 /* Pods-Auto Sample.release.xcconfig */,
-				8DA148D1E8B23F3C619A267A /* Pods-Auto Watch Extension.debug.xcconfig */,
-				17043135E8E49C28FD765AD4 /* Pods-Auto Watch Extension.release.xcconfig */,
-				1373B15B74D03E37DBE9ED06 /* Pods-Manual Notification Service.debug.xcconfig */,
-				27CE2E16ECF2B75B105BC46B /* Pods-Manual Notification Service.release.xcconfig */,
-				02CF03007A9F524C76D1AA41 /* Pods-Manual Sample.debug.xcconfig */,
-				5EB51D010E5717884A13FE23 /* Pods-Manual Sample.release.xcconfig */,
-				AAD6ECA5A406FD264B90B2D7 /* Pods-Manual Watch Extension.debug.xcconfig */,
-				BE7E4ACA6B420625744A0A14 /* Pods-Manual Watch Extension.release.xcconfig */,
+				60B693EEC5D2EDCE75A6E844 /* Pods-Auto Notification Service.debug.xcconfig */,
+				81255F6A0EFCB337A915466B /* Pods-Auto Notification Service.release.xcconfig */,
+				B70CCA1D1A595A3A7E006444 /* Pods-Auto Sample.debug.xcconfig */,
+				C457B7B956D5858A4CE2A16B /* Pods-Auto Sample.release.xcconfig */,
+				638BA4FCCC53906B4B0B59F9 /* Pods-Manual Notification Service.debug.xcconfig */,
+				29FE49B2A365D4421E6D0487 /* Pods-Manual Notification Service.release.xcconfig */,
+				92CCB39A2FE91E9C01B5417B /* Pods-Manual Sample.debug.xcconfig */,
+				E070A1E58FE15D5A7D573767 /* Pods-Manual Sample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -867,8 +721,6 @@
 		C3D28E932437927100B8F979 = {
 			isa = PBXGroup;
 			children = (
-				C360F5E024ABF99B00573174 /* Manual Watch Extension.entitlements */,
-				C360F5DF24ABF96D00573174 /* Auto Watch Extension.entitlements */,
 				C360F5DE24ABF93F00573174 /* Manual Notification Service.entitlements */,
 				C360F5DD24ABF92200573174 /* Auto Notification Service.entitlements */,
 				3437CCE828DB6B5B00F897D7 /* Carousel.entitlements */,
@@ -876,8 +728,6 @@
 				C3D28F2C2437A0EA00B8F979 /* plugins */,
 				C3FF3AAA2437C48200B6B412 /* Notification Service */,
 				C3D28E9E2437927100B8F979 /* iOS App */,
-				C3FF3B112437C6D500B6B412 /* Watch */,
-				C3FF3B202437C6D500B6B412 /* Watch Extension */,
 				C3D28E9D2437927100B8F979 /* Products */,
 				C3D28F222437A09C00B8F979 /* Frameworks */,
 				1FCD4B06E13C95AD6A6CF281 /* Pods */,
@@ -894,10 +744,6 @@
 				C3D28F2124379F8F00B8F979 /* Manual Sample.app */,
 				C392A1102437B70500C16933 /* Auto Notification Service.appex */,
 				C392A1212437B73700C16933 /* Manual Notification Service.appex */,
-				C3FF3AE52437C6B100B6B412 /* Auto Watch.app */,
-				C3FF3AF12437C6B100B6B412 /* Auto Watch Extension.appex */,
-				C3FF3B102437C6D500B6B412 /* Manual Watch.app */,
-				C3FF3B1C2437C6D500B6B412 /* Manual Watch Extension.appex */,
 				3437CCC428D91D7900F897D7 /* Carousel.appex */,
 				6D468FAA2B982BE500C6FFA8 /* Auto Sample Local.app */,
 				6D468FB72B982BF900C6FFA8 /* Auto Notification Service Local.appex */,
@@ -990,12 +836,10 @@
 				C3D28F242437A09C00B8F979 /* AcousticMobilePushNotification.xcframework */,
 				3437CCAE28D919D300F897D7 /* UserNotifications.framework */,
 				3437CCB028D919D300F897D7 /* UserNotificationsUI.framework */,
-				77367D2F1345EDBAB1B4A6FC /* Pods_Auto_Notification_Service.framework */,
-				ACF7718B85EE551ACAD7F86C /* Pods_Auto_Sample.framework */,
-				8D69050B00F4A60364BB1B5F /* Pods_Auto_Watch_Extension.framework */,
-				B142885316AF6BC56D6FCBBD /* Pods_Manual_Notification_Service.framework */,
-				85411C53604564D44DD4A308 /* Pods_Manual_Sample.framework */,
-				6E923FAD55587647F4D004F9 /* Pods_Manual_Watch_Extension.framework */,
+				9C2659F404D6DD27445AB682 /* Pods_Auto_Notification_Service.framework */,
+				373837443E4850A17BCAFECD /* Pods_Auto_Sample.framework */,
+				7DFC56916DE1D93622464173 /* Pods_Manual_Notification_Service.framework */,
+				177F949AEDF5457D897D0053 /* Pods_Manual_Sample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1010,7 +854,6 @@
 				C3D28F6D2437A0EA00B8F979 /* calendar-action */,
 				C3D28F702437A0EA00B8F979 /* snooze-action */,
 				C3D28F732437A0EA00B8F979 /* web-action */,
-				C3D28F792437A0EA00B8F979 /* watch */,
 				C3D28F7D2437A0EA00B8F979 /* text-input-action */,
 				C3D28F802437A0EA00B8F979 /* passbook-action */,
 				C3D28F852437A0EA00B8F979 /* example-action */,
@@ -1177,16 +1020,6 @@
 			path = "web-action";
 			sourceTree = "<group>";
 		};
-		C3D28F792437A0EA00B8F979 /* watch */ = {
-			isa = PBXGroup;
-			children = (
-				C3D28F7A2437A0EA00B8F979 /* HandOffController.h */,
-				C3D28F7B2437A0EA00B8F979 /* HandOffController.m */,
-				C3D28F7C2437A0EA00B8F979 /* Interface.storyboard */,
-			);
-			path = watch;
-			sourceTree = "<group>";
-		};
 		C3D28F7D2437A0EA00B8F979 /* text-input-action */ = {
 			isa = PBXGroup;
 			children = (
@@ -1235,64 +1068,6 @@
 				C3FF3AB02437C4DC00B6B412 /* Info.plist */,
 			);
 			path = Shared;
-			sourceTree = "<group>";
-		};
-		C3FF3B112437C6D500B6B412 /* Watch */ = {
-			isa = PBXGroup;
-			children = (
-				C3FF3B392437C79700B6B412 /* Shared */,
-			);
-			name = Watch;
-			path = "Watch App";
-			sourceTree = "<group>";
-		};
-		C3FF3B202437C6D500B6B412 /* Watch Extension */ = {
-			isa = PBXGroup;
-			children = (
-				C3FF3B482437C82900B6B412 /* Manual */,
-				C3FF3B472437C7DB00B6B412 /* Shared */,
-			);
-			path = "Watch Extension";
-			sourceTree = "<group>";
-		};
-		C3FF3B392437C79700B6B412 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				C3FF3B3A2437C79700B6B412 /* Assets.xcassets */,
-				C3FF3B3B2437C79700B6B412 /* Interface.storyboard */,
-				C3FF3B3D2437C79700B6B412 /* Info.plist */,
-			);
-			name = Shared;
-			path = "Watch App/Shared";
-			sourceTree = SOURCE_ROOT;
-		};
-		C3FF3B472437C7DB00B6B412 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				C3FF3B642437CA6100B6B412 /* AttributesController.h */,
-				C3FF3B612437CA6100B6B412 /* AttributesController.m */,
-				C3FF3B622437CA6100B6B412 /* EventsController.h */,
-				C3FF3B632437CA6100B6B412 /* EventsController.m */,
-				C3FF3B602437CA6100B6B412 /* RegistrationController.h */,
-				C3FF3B652437CA6100B6B412 /* RegistrationController.m */,
-				C3FF3B212437C6D500B6B412 /* InterfaceController.h */,
-				C3FF3B222437C6D500B6B412 /* InterfaceController.m */,
-				C3FF3B272437C6D500B6B412 /* NotificationController.h */,
-				C3FF3B282437C6D500B6B412 /* NotificationController.m */,
-				C3FF3B2A2437C6D600B6B412 /* Assets.xcassets */,
-				C3FF3B2C2437C6D600B6B412 /* Info.plist */,
-				C3FF3B2D2437C6D600B6B412 /* PushNotificationPayload.apns */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		C3FF3B482437C82900B6B412 /* Manual */ = {
-			isa = PBXGroup;
-			children = (
-				C3FF3B5E2437CA5200B6B412 /* ExtensionDelegate.h */,
-				C3FF3B5D2437CA5200B6B412 /* ExtensionDelegate.m */,
-			);
-			path = Manual;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1378,7 +1153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C392A1192437B70500C16933 /* Build configuration list for PBXNativeTarget "Auto Notification Service" */;
 			buildPhases = (
-				1EDC4EE02BF085C67B572CAF /* [CP] Check Pods Manifest.lock */,
+				A6A2F9B10E399E004091DFE5 /* [CP] Check Pods Manifest.lock */,
 				C392A10C2437B70500C16933 /* Sources */,
 				C392A10D2437B70500C16933 /* Frameworks */,
 				C392A10E2437B70500C16933 /* Resources */,
@@ -1396,7 +1171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C392A12A2437B73700C16933 /* Build configuration list for PBXNativeTarget "Manual Notification Service" */;
 			buildPhases = (
-				43E0CF2A183E16A2C5EE5B9E /* [CP] Check Pods Manifest.lock */,
+				AC76C28F879FA69F0BF358C9 /* [CP] Check Pods Manifest.lock */,
 				C392A11D2437B73700C16933 /* Sources */,
 				C392A11E2437B73700C16933 /* Frameworks */,
 				C392A11F2437B73700C16933 /* Resources */,
@@ -1414,20 +1189,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3D28EB52437927300B8F979 /* Build configuration list for PBXNativeTarget "Auto Sample" */;
 			buildPhases = (
-				44E6F838650BC84897F78153 /* [CP] Check Pods Manifest.lock */,
+				05AA0E8A14640555FB23B705 /* [CP] Check Pods Manifest.lock */,
 				C3D28E982437927100B8F979 /* Sources */,
 				C3D28E992437927100B8F979 /* Frameworks */,
 				C3D28E9A2437927100B8F979 /* Resources */,
 				C392A11C2437B70500C16933 /* Embed Foundation Extensions */,
 				C3FF3B0D2437C6B200B6B412 /* Embed Watch Content */,
-				2FA528D349E2081005EC98F4 /* [CP] Embed Pods Frameworks */,
+				E95D1C2F7D7C88AA486320C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				C392A1172437B70500C16933 /* PBXTargetDependency */,
 				3437CCD028D91D7900F897D7 /* PBXTargetDependency */,
-				C3FF3B042437C6B200B6B412 /* PBXTargetDependency */,
 			);
 			name = "Auto Sample";
 			productName = Sample;
@@ -1438,97 +1212,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3D28F1E24379F8F00B8F979 /* Build configuration list for PBXNativeTarget "Manual Sample" */;
 			buildPhases = (
-				8B1F4D0916512B136BF9A7B1 /* [CP] Check Pods Manifest.lock */,
+				62DE351B0E8E59D93B3D5811 /* [CP] Check Pods Manifest.lock */,
 				C3D28F0224379F8F00B8F979 /* Sources */,
 				C3D28F1724379F8F00B8F979 /* Frameworks */,
 				C3D28F1824379F8F00B8F979 /* Resources */,
 				C392A12D2437B73700C16933 /* Embed Foundation Extensions */,
-				C3FF3B382437C6D600B6B412 /* Embed Watch Content */,
-				28630BED18C9BEE849285162 /* [CP] Embed Pods Frameworks */,
+				414CC8C3CD74BC1DEA294BBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3437CCE528DB65DA00F897D7 /* PBXTargetDependency */,
 				C392A1282437B73700C16933 /* PBXTargetDependency */,
-				C3FF3B2F2437C6D600B6B412 /* PBXTargetDependency */,
 			);
 			name = "Manual Sample";
 			productName = Sample;
 			productReference = C3D28F2124379F8F00B8F979 /* Manual Sample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C3FF3AE42437C6B100B6B412 /* Auto Watch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3FF3B0A2437C6B200B6B412 /* Build configuration list for PBXNativeTarget "Auto Watch" */;
-			buildPhases = (
-				C3FF3AE32437C6B100B6B412 /* Resources */,
-				C3FF3B092437C6B200B6B412 /* Embed Foundation Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C3FF3AF42437C6B100B6B412 /* PBXTargetDependency */,
-			);
-			name = "Auto Watch";
-			productName = Watch;
-			productReference = C3FF3AE52437C6B100B6B412 /* Auto Watch.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		C3FF3AF02437C6B100B6B412 /* Auto Watch Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3FF3B062437C6B200B6B412 /* Build configuration list for PBXNativeTarget "Auto Watch Extension" */;
-			buildPhases = (
-				B1498C94C617967B4819D310 /* [CP] Check Pods Manifest.lock */,
-				C3FF3AED2437C6B100B6B412 /* Sources */,
-				C3FF3AEE2437C6B100B6B412 /* Frameworks */,
-				C3FF3AEF2437C6B100B6B412 /* Resources */,
-				B242FEE7F11512D14D1FA125 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Auto Watch Extension";
-			productName = "Watch Extension";
-			productReference = C3FF3AF12437C6B100B6B412 /* Auto Watch Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
-		C3FF3B0F2437C6D500B6B412 /* Manual Watch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3FF3B352437C6D600B6B412 /* Build configuration list for PBXNativeTarget "Manual Watch" */;
-			buildPhases = (
-				C3FF3B0E2437C6D500B6B412 /* Resources */,
-				C3FF3B342437C6D600B6B412 /* Embed Foundation Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C3FF3B1F2437C6D500B6B412 /* PBXTargetDependency */,
-			);
-			name = "Manual Watch";
-			productName = Watch;
-			productReference = C3FF3B102437C6D500B6B412 /* Manual Watch.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		C3FF3B1B2437C6D500B6B412 /* Manual Watch Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3FF3B312437C6D600B6B412 /* Build configuration list for PBXNativeTarget "Manual Watch Extension" */;
-			buildPhases = (
-				38B87506B29DB882FE18E042 /* [CP] Check Pods Manifest.lock */,
-				C3FF3B182437C6D500B6B412 /* Sources */,
-				C3FF3B192437C6D500B6B412 /* Frameworks */,
-				C3FF3B1A2437C6D500B6B412 /* Resources */,
-				4D1AB33700AD831D71D68AEF /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Manual Watch Extension";
-			productName = "Watch Extension";
-			productReference = C3FF3B1C2437C6D500B6B412 /* Manual Watch Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -1538,7 +1237,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1600;
 				ORGANIZATIONNAME = Acoustic;
 				TargetAttributes = {
 					3437CCC328D91D7900F897D7 = {
@@ -1553,18 +1252,6 @@
 					C3D28E9B2437927100B8F979 = {
 						CreatedOnToolsVersion = 11.4;
 						LastSwiftMigration = 1140;
-					};
-					C3FF3AE42437C6B100B6B412 = {
-						CreatedOnToolsVersion = 11.4;
-					};
-					C3FF3AF02437C6B100B6B412 = {
-						CreatedOnToolsVersion = 11.4;
-					};
-					C3FF3B0F2437C6D500B6B412 = {
-						CreatedOnToolsVersion = 11.4;
-					};
-					C3FF3B1B2437C6D500B6B412 = {
-						CreatedOnToolsVersion = 11.4;
 					};
 				};
 			};
@@ -1592,10 +1279,6 @@
 				C392A10F2437B70500C16933 /* Auto Notification Service */,
 				3437CCC328D91D7900F897D7 /* Carousel */,
 				C392A1202437B73700C16933 /* Manual Notification Service */,
-				C3FF3AE42437C6B100B6B412 /* Auto Watch */,
-				C3FF3AF02437C6B100B6B412 /* Auto Watch Extension */,
-				C3FF3B0F2437C6D500B6B412 /* Manual Watch */,
-				C3FF3B1B2437C6D500B6B412 /* Manual Watch Extension */,
 				6D468F542B982BE500C6FFA8 /* Auto Sample Local */,
 				6D468FAC2B982BF900C6FFA8 /* Auto Notification Service Local */,
 				6D468FB92B982C1200C6FFA8 /* Carousel Local */,
@@ -1809,145 +1492,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3FF3AE32437C6B100B6B412 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3FF3B452437C7AE00B6B412 /* Interface.storyboard in Resources */,
-				C3FF3B432437C7A500B6B412 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3AEF2437C6B100B6B412 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3FF3B5C2437C96800B6B412 /* Assets.xcassets in Resources */,
-				C3FCF4F3245A1E3700FD47B4 /* MceConfig.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3B0E2437C6D500B6B412 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3FF3B462437C7AF00B6B412 /* Interface.storyboard in Resources */,
-				C3FF3B442437C7A600B6B412 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3B1A2437C6D500B6B412 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3FF3B2B2437C6D600B6B412 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1EDC4EE02BF085C67B572CAF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Auto Notification Service-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		28630BED18C9BEE849285162 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Manual Sample/Pods-Manual Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Manual Sample/Pods-Manual Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Manual Sample/Pods-Manual Sample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2FA528D349E2081005EC98F4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Auto Sample/Pods-Auto Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Auto Sample/Pods-Auto Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Auto Sample/Pods-Auto Sample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		38B87506B29DB882FE18E042 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Manual Watch Extension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		43E0CF2A183E16A2C5EE5B9E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Manual Notification Service-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		44E6F838650BC84897F78153 /* [CP] Check Pods Manifest.lock */ = {
+		05AA0E8A14640555FB23B705 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1969,24 +1517,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4D1AB33700AD831D71D68AEF /* [CP] Embed Pods Frameworks */ = {
+		414CC8C3CD74BC1DEA294BBD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Manual Sample/Pods-Manual Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Manual Sample/Pods-Manual Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Manual Watch Extension/Pods-Manual Watch Extension-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Manual Sample/Pods-Manual Sample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8B1F4D0916512B136BF9A7B1 /* [CP] Check Pods Manifest.lock */ = {
+		62DE351B0E8E59D93B3D5811 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2008,7 +1556,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B1498C94C617967B4819D310 /* [CP] Check Pods Manifest.lock */ = {
+		A6A2F9B10E399E004091DFE5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2023,28 +1571,50 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Auto Watch Extension-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Auto Notification Service-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B242FEE7F11512D14D1FA125 /* [CP] Embed Pods Frameworks */ = {
+		AC76C28F879FA69F0BF358C9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Auto Watch Extension/Pods-Auto Watch Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Auto Watch Extension/Pods-Auto Watch Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Manual Notification Service-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Auto Watch Extension/Pods-Auto Watch Extension-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E95D1C2F7D7C88AA486320C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Auto Sample/Pods-Auto Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Auto Sample/Pods-Auto Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Auto Sample/Pods-Auto Sample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2244,31 +1814,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3FF3AED2437C6B100B6B412 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3FF3B592437C95B00B6B412 /* InterfaceController.m in Sources */,
-				C3FF3B672437CA6100B6B412 /* EventsController.m in Sources */,
-				C3FF3B662437CA6100B6B412 /* AttributesController.m in Sources */,
-				C3FF3B722437CBA700B6B412 /* HandOffController.m in Sources */,
-				C3FF3B5B2437C96600B6B412 /* NotificationController.m in Sources */,
-				C3FF3B682437CA6100B6B412 /* RegistrationController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3FF3B182437C6D500B6B412 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3FF3B732437CBA800B6B412 /* HandOffController.m in Sources */,
-				C3FF3B702437CAB600B6B412 /* Config.m in Sources */,
-				C3FF3B232437C6D500B6B412 /* InterfaceController.m in Sources */,
-				C3FF3B712437CAED00B6B412 /* ExtensionDelegate.m in Sources */,
-				C3FF3B292437C6D500B6B412 /* NotificationController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2277,11 +1822,6 @@
 			platformFilter = ios;
 			target = 3437CCC328D91D7900F897D7 /* Carousel */;
 			targetProxy = 3437CCCF28D91D7900F897D7 /* PBXContainerItemProxy */;
-		};
-		3437CCE528DB65DA00F897D7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3437CCC328D91D7900F897D7 /* Carousel */;
-			targetProxy = 3437CCE428DB65DA00F897D7 /* PBXContainerItemProxy */;
 		};
 		6D468FD22B982CE500C6FFA8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2313,28 +1853,6 @@
 			target = C392A1202437B73700C16933 /* Manual Notification Service */;
 			targetProxy = C392A1272437B73700C16933 /* PBXContainerItemProxy */;
 		};
-		C3FF3AF42437C6B100B6B412 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C3FF3AF02437C6B100B6B412 /* Auto Watch Extension */;
-			targetProxy = C3FF3AF32437C6B100B6B412 /* PBXContainerItemProxy */;
-		};
-		C3FF3B042437C6B200B6B412 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			platformFilter = ios;
-			target = C3FF3AE42437C6B100B6B412 /* Auto Watch */;
-			targetProxy = C3FF3B032437C6B200B6B412 /* PBXContainerItemProxy */;
-		};
-		C3FF3B1F2437C6D500B6B412 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C3FF3B1B2437C6D500B6B412 /* Manual Watch Extension */;
-			targetProxy = C3FF3B1E2437C6D500B6B412 /* PBXContainerItemProxy */;
-		};
-		C3FF3B2F2437C6D600B6B412 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			platformFilter = ios;
-			target = C3FF3B0F2437C6D500B6B412 /* Manual Watch */;
-			targetProxy = C3FF3B2E2437C6D600B6B412 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -2362,14 +1880,6 @@
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
-		C3FF3B3B2437C79700B6B412 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3FF3B3C2437C79700B6B412 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -2387,7 +1897,7 @@
 				INFOPLIST_FILE = "plugins/Image Carousel Plugin/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2417,7 +1927,7 @@
 				INFOPLIST_FILE = "plugins/Image Carousel Plugin/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2443,7 +1953,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = "Auto Sample Local-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2473,7 +1983,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = "Auto Sample Local-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2501,7 +2011,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = "Auto Notification Service Local-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2530,7 +2040,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = "Auto Notification Service Local-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2564,7 +2074,7 @@
 				INFOPLIST_FILE = "Carousel Local-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2594,7 +2104,7 @@
 				INFOPLIST_FILE = "Carousel Local-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2612,7 +2122,7 @@
 		};
 		C392A11A2437B70500C16933 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E411DFF0206F214EACA60FD6 /* Pods-Auto Notification Service.debug.xcconfig */;
+			baseConfigurationReference = 60B693EEC5D2EDCE75A6E844 /* Pods-Auto Notification Service.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Auto Notification Service.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -2620,7 +2130,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = "Notification Service/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2642,7 +2152,7 @@
 		};
 		C392A11B2437B70500C16933 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B529D3E6D631DB779C999051 /* Pods-Auto Notification Service.release.xcconfig */;
+			baseConfigurationReference = 81255F6A0EFCB337A915466B /* Pods-Auto Notification Service.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Auto Notification Service.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -2650,7 +2160,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				INFOPLIST_FILE = "Notification Service/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2672,7 +2182,7 @@
 		};
 		C392A12B2437B73700C16933 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1373B15B74D03E37DBE9ED06 /* Pods-Manual Notification Service.debug.xcconfig */;
+			baseConfigurationReference = 638BA4FCCC53906B4B0B59F9 /* Pods-Manual Notification Service.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Manual Notification Service.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -2680,7 +2190,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Notification Service/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2702,7 +2212,7 @@
 		};
 		C392A12C2437B73700C16933 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27CE2E16ECF2B75B105BC46B /* Pods-Manual Notification Service.release.xcconfig */;
+			baseConfigurationReference = 29FE49B2A365D4421E6D0487 /* Pods-Manual Notification Service.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Manual Notification Service.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -2710,7 +2220,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Notification Service/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2783,7 +2293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 3.8.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -2839,7 +2349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 3.8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -2850,7 +2360,7 @@
 		};
 		C3D28EB62437927300B8F979 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9165B784D65F7B63C9DEFE02 /* Pods-Auto Sample.debug.xcconfig */;
+			baseConfigurationReference = B70CCA1D1A595A3A7E006444 /* Pods-Auto Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2859,7 +2369,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "iOS App/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2881,7 +2391,7 @@
 		};
 		C3D28EB72437927300B8F979 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4193C2A151A1C935FDD4DF37 /* Pods-Auto Sample.release.xcconfig */;
+			baseConfigurationReference = C457B7B956D5858A4CE2A16B /* Pods-Auto Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2890,7 +2400,7 @@
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "iOS App/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2911,7 +2421,7 @@
 		};
 		C3D28F1F24379F8F00B8F979 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02CF03007A9F524C76D1AA41 /* Pods-Manual Sample.debug.xcconfig */;
+			baseConfigurationReference = 92CCB39A2FE91E9C01B5417B /* Pods-Manual Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "iOS App/Shared/Sample.entitlements";
@@ -2925,7 +2435,7 @@
 					"MANUAL=1",
 				);
 				INFOPLIST_FILE = "iOS App/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2945,7 +2455,7 @@
 		};
 		C3D28F2024379F8F00B8F979 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EB51D010E5717884A13FE23 /* Pods-Manual Sample.release.xcconfig */;
+			baseConfigurationReference = E070A1E58FE15D5A7D573767 /* Pods-Manual Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "iOS App/Shared/Sample.entitlements";
@@ -2953,9 +2463,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 383;
 				DEVELOPMENT_TEAM = "";
-				GCC_PREPROCESSOR_DEFINITIONS = "MANUAL=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"MANUAL=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "iOS App/Shared/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2970,184 +2483,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C3FF3B072437C6B200B6B412 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DA148D1E8B23F3C619A267A /* Pods-Auto Watch Extension.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "Auto Watch Extension.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Watch Extension/Shared/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Debug;
-		};
-		C3FF3B082437C6B200B6B412 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17043135E8E49C28FD765AD4 /* Pods-Auto Watch Extension.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "Auto Watch Extension.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Watch Extension/Shared/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Release;
-		};
-		C3FF3B0B2437C6B200B6B412 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				IBSC_MODULE = Watch_Extension;
-				INFOPLIST_FILE = "Watch App/Shared/Info.plist";
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Debug;
-		};
-		C3FF3B0C2437C6B200B6B412 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				IBSC_MODULE = Watch_Extension;
-				INFOPLIST_FILE = "Watch App/Shared/Info.plist";
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Release;
-		};
-		C3FF3B322437C6D600B6B412 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAD6ECA5A406FD264B90B2D7 /* Pods-Manual Watch Extension.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "Manual Watch Extension.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Watch Extension/Shared/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Debug;
-		};
-		C3FF3B332437C6D600B6B412 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE7E4ACA6B420625744A0A14 /* Pods-Manual Watch Extension.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "Manual Watch Extension.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Watch Extension/Shared/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Release;
-		};
-		C3FF3B362437C6D600B6B412 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				IBSC_MODULE = Watch_Extension;
-				INFOPLIST_FILE = "Watch App/Shared/Info.plist";
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Debug;
-		};
-		C3FF3B372437C6D600B6B412 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 383;
-				DEVELOPMENT_TEAM = "";
-				IBSC_MODULE = Watch_Extension;
-				INFOPLIST_FILE = "Watch App/Shared/Info.plist";
-				MARKETING_VERSION = 3.8.3;
-				PRODUCT_BUNDLE_IDENTIFIER = INSERT.BUNDLE.ID.HERE.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
@@ -3231,42 +2566,6 @@
 			buildConfigurations = (
 				C3D28F1F24379F8F00B8F979 /* Debug */,
 				C3D28F2024379F8F00B8F979 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3FF3B062437C6B200B6B412 /* Build configuration list for PBXNativeTarget "Auto Watch Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3FF3B072437C6B200B6B412 /* Debug */,
-				C3FF3B082437C6B200B6B412 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3FF3B0A2437C6B200B6B412 /* Build configuration list for PBXNativeTarget "Auto Watch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3FF3B0B2437C6B200B6B412 /* Debug */,
-				C3FF3B0C2437C6B200B6B412 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3FF3B312437C6D600B6B412 /* Build configuration list for PBXNativeTarget "Manual Watch Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3FF3B322437C6D600B6B412 /* Debug */,
-				C3FF3B332437C6D600B6B412 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3FF3B352437C6D600B6B412 /* Build configuration list for PBXNativeTarget "Manual Watch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3FF3B362437C6D600B6B412 /* Debug */,
-				C3FF3B372437C6D600B6B412 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
