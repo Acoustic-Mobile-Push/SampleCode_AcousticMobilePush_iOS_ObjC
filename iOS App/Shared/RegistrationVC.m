@@ -1,5 +1,5 @@
 /*
- * Copyright © 2011, 2019 Acoustic, L.P. All rights reserved.
+ * Copyright (C) 2024 Acoustic, L.P. All rights reserved.
  *
  * NOTICE: This file contains material that is confidential and proprietary to
  * Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -30,19 +30,15 @@
     [super viewDidAppear:animated];
     
     // iOS 13 Multiple Window Support
-    if(@available(iOS 13.0, *)) {
-        self.view.window.windowScene.userActivity = [[NSUserActivity alloc] initWithActivityType:@"co.acoustic.mobilepush"];
-        self.view.window.windowScene.userActivity.title = NSStringFromClass(self.class);
-    }
+    self.view.window.windowScene.userActivity = [[NSUserActivity alloc] initWithActivityType:@"co.acoustic.mobilepush"];
+    self.view.window.windowScene.userActivity.title = NSStringFromClass(self.class);
 }
 
 -(void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
     
     // iOS 13 Multiple Window Support
-    if(@available(iOS 13.0, *)) {
-        self.view.window.windowScene.userActivity = nil;
-    }
+    self.view.window.windowScene.userActivity = nil;
 }
 
 -(void)viewDidLoad

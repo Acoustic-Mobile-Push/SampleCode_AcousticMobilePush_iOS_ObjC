@@ -1,5 +1,5 @@
 /*
- * Copyright © 2011, 2019 Acoustic, L.P. All rights reserved.
+ * Copyright (C) 2024 Acoustic, L.P. All rights reserved.
  *
  * NOTICE: This file contains material that is confidential and proprietary to
  * Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -209,10 +209,7 @@
 }
 
 - (IBAction)valueTypeTap:(id)sender {
-    if(@available(iOS 13.0, *)) {
-        self.userActivity.needsSave = true;
-    }
-    
+    self.userActivity.needsSave = true;
     [NSUserDefaults.standardUserDefaults setObject: self.interfaceState forKey: NSStringFromClass(self.class)];
     [self updateValueControls];
 }
@@ -282,10 +279,7 @@
 }
 
 - (IBAction)operationTypeTap:(id)sender {
-    if(@available(iOS 13.0, *)) {
-        self.userActivity.needsSave = true;
-    }
-
+    self.userActivity.needsSave = true;
     [NSUserDefaults.standardUserDefaults setObject:self.interfaceState forKey: NSStringFromClass(self.class)];
     [self updateValueControls];
 }

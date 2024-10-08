@@ -165,13 +165,8 @@
 
 // Required
 -(void)requestUserNotifications {
-    NSUInteger options = 0;
-    if(@available(iOS 12.0, *)) {
-        options = UNAuthorizationOptionAlert|UNAuthorizationOptionSound|UNAuthorizationOptionBadge|UNAuthorizationOptionCarPlay|UNAuthorizationOptionProvidesAppNotificationSettings;
-    } else {
-        options = UNAuthorizationOptionAlert|UNAuthorizationOptionSound|UNAuthorizationOptionBadge|UNAuthorizationOptionCarPlay;
-    }
-
+    NSUInteger options = UNAuthorizationOptionAlert|UNAuthorizationOptionSound|UNAuthorizationOptionBadge|UNAuthorizationOptionCarPlay|UNAuthorizationOptionProvidesAppNotificationSettings;
+    
     UNUserNotificationCenter * center = [UNUserNotificationCenter currentNotificationCenter];
     [center requestAuthorizationWithOptions: options completionHandler:^(BOOL granted, NSError * _Nullable error) {
         
@@ -182,17 +177,15 @@
 
 // Completely Optional
 -(void)registerPushSettingsSelectionScreen {
-    if(@available(iOS 12.0, *)) {
-        MCESdk.sharedInstance.openSettingsForNotification = ^(UNNotification *notification) {
-            UIAlertController * alert = [UIAlertController alertControllerWithTitle:@"Should show app settings for notifications" message:nil preferredStyle:UIAlertControllerStyleAlert];
-            [alert addAction: [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-                
-            }]];
-            [[MCESdk.sharedInstance findCurrentViewController] presentViewController:alert animated:true completion: ^{
-                
-            }];
-        };
-    }
+    MCESdk.sharedInstance.openSettingsForNotification = ^(UNNotification *notification) {
+        UIAlertController * alert = [UIAlertController alertControllerWithTitle:@"Should show app settings for notifications" message:nil preferredStyle:UIAlertControllerStyleAlert];
+        [alert addAction: [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            
+        }]];
+        [[MCESdk.sharedInstance findCurrentViewController] presentViewController:alert animated:true completion: ^{
+            
+        }];
+    };
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
