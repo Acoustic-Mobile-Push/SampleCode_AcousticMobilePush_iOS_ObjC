@@ -278,11 +278,7 @@ const CGFloat DEFAULT_BANNER_DISPLAY_DURATION = 5;
     frame.origin.x = 0;
     frame.size.width = window.frame.size.width;
     frame.size.height = self.bannerHeight;
-    
-    if (@available(macCatalyst 13.0, iOS 11.0, *)) {
-        frame.size.height += window.safeAreaInsets.bottom;
-    }
-
+    frame.size.height += window.safeAreaInsets.bottom;
     frame.origin.y = window.bounds.size.height - frame.size.height;
     
     self.visibleFrame = frame;
