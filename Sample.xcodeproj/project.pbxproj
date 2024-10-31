@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291AC8342CD3F0A000C6BFC3 /* Auto Notification Service Local.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6D468FB72B982BF900C6FFA8 /* Auto Notification Service Local.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		291AC8352CD3F0A000C6BFC3 /* Carousel Local.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6D468FC22B982C1200C6FFA8 /* Carousel Local.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		29DF55A52CD2839900782E9B /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F662437A0EA00B8F979 /* NotificationViewController.m */; };
+		29DF55A62CD2839900782E9B /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F662437A0EA00B8F979 /* NotificationViewController.m */; };
+		29DF55A72CD29B2200782E9B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F672437A0EA00B8F979 /* MainInterface.storyboard */; };
+		29DF55A82CD2B1B200782E9B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F672437A0EA00B8F979 /* MainInterface.storyboard */; };
+		29DF55A92CD2B29B00782E9B /* Carousel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3437CCC428D91D7900F897D7 /* Carousel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3437CCC528D91D7900F897D7 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3437CCAE28D919D300F897D7 /* UserNotifications.framework */; };
 		3437CCC628D91D7900F897D7 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3437CCB028D919D300F897D7 /* UserNotificationsUI.framework */; };
 		3437CCD128D91D7900F897D7 /* Carousel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3437CCC428D91D7900F897D7 /* Carousel.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -76,8 +83,6 @@
 		6D468F9E2B982BE500C6FFA8 /* MCEInboxDefaultTemplateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F382437A0EA00B8F979 /* MCEInboxDefaultTemplateCell.xib */; };
 		6D468F9F2B982BE500C6FFA8 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F762437A0EA00B8F979 /* WebViewController.xib */; };
 		6D468FA02B982BE500C6FFA8 /* Inbox Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F322437A0EA00B8F979 /* Inbox Images.xcassets */; };
-		6D468FA22B982BE500C6FFA8 /* Carousel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3437CCC428D91D7900F897D7 /* Carousel.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6D468FA32B982BE500C6FFA8 /* Auto Notification Service.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C392A1102437B70500C16933 /* Auto Notification Service.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6D468FAF2B982BF900C6FFA8 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = C392A1132437B70500C16933 /* NotificationService.m */; };
 		6D468FB32B982BF900C6FFA8 /* MceConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F2A2437A0C900B8F979 /* MceConfig.json */; };
 		6D468FBC2B982C1200C6FFA8 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3437CCB028D919D300F897D7 /* UserNotificationsUI.framework */; };
@@ -253,13 +258,6 @@
 			remoteGlobalIDString = C3CEE92E22EB9866009E67E8;
 			remoteInfo = AcousticMobilePush;
 		};
-		6D468FEC2B982E8D00C6FFA8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D468FD72B982E8D00C6FFA8 /* AcousticMobilePush.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C34DF4D722EF862E00B2224B;
-			remoteInfo = AcousticMobilePushWatch;
-		};
 		6D468FEE2B982E8D00C6FFA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6D468FD72B982E8D00C6FFA8 /* AcousticMobilePush.xcodeproj */;
@@ -302,34 +300,6 @@
 			remoteGlobalIDString = 6DA6E5B52B86B705004B063B;
 			remoteInfo = AcousticMobilePushTestAppUITests;
 		};
-		6D468FFA2B982E8D00C6FFA8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D468FD72B982E8D00C6FFA8 /* AcousticMobilePush.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6D9AFBEA2B86EC3D00FE4C0E;
-			remoteInfo = Watch;
-		};
-		6D468FFC2B982E8D00C6FFA8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D468FD72B982E8D00C6FFA8 /* AcousticMobilePush.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6D9AFBEF2B86EC3D00FE4C0E;
-			remoteInfo = "Watch Watch App";
-		};
-		6D468FFE2B982E8D00C6FFA8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D468FD72B982E8D00C6FFA8 /* AcousticMobilePush.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6D9AFC012B86EC3F00FE4C0E;
-			remoteInfo = "Watch Watch AppTests";
-		};
-		6D4690002B982E8D00C6FFA8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D468FD72B982E8D00C6FFA8 /* AcousticMobilePush.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6D9AFC0B2B86EC3F00FE4C0E;
-			remoteInfo = "Watch Watch AppUITests";
-		};
 		6D4690022B982EC700C6FFA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6D468FD72B982E8D00C6FFA8 /* AcousticMobilePush.xcodeproj */;
@@ -363,15 +333,15 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		6D468FA12B982BE500C6FFA8 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				6D468FA22B982BE500C6FFA8 /* Carousel.appex in Embed Foundation Extensions */,
-				6D468FA32B982BE500C6FFA8 /* Auto Notification Service.appex in Embed Foundation Extensions */,
+				291AC8342CD3F0A000C6BFC3 /* Auto Notification Service Local.appex in Embed Foundation Extensions */,
+				291AC8352CD3F0A000C6BFC3 /* Carousel Local.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6D468FA42B982BE500C6FFA8 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -407,7 +377,7 @@
 		};
 		C392A11C2437B70500C16933 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
@@ -415,7 +385,7 @@
 				C392A1182437B70500C16933 /* Auto Notification Service.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C392A12D2437B73700C16933 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -423,6 +393,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				29DF55A92CD2B29B00782E9B /* Carousel.appex in Embed Foundation Extensions */,
 				C392A1292437B73700C16933 /* Manual Notification Service.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
@@ -685,17 +656,12 @@
 			isa = PBXGroup;
 			children = (
 				6D468FEB2B982E8D00C6FFA8 /* AcousticMobilePush.framework */,
-				6D468FED2B982E8D00C6FFA8 /* AcousticMobilePushWatch.framework */,
 				6D468FEF2B982E8D00C6FFA8 /* AcousticMobilePushNotification.framework */,
-				6D468FF12B982E8D00C6FFA8 /* AcousticMobilePushTestApp.app */,
 				6D468FF32B982E8D00C6FFA8 /* Notification Service.appex */,
 				6D468FF52B982E8D00C6FFA8 /* Carousel.appex */,
 				6D468FF72B982E8D00C6FFA8 /* AcousticMobilePushTestAppTests.xctest */,
 				6D468FF92B982E8D00C6FFA8 /* AcousticMobilePushTestAppUITests.xctest */,
-				6D468FFB2B982E8D00C6FFA8 /* Watch.app */,
-				6D468FFD2B982E8D00C6FFA8 /* Watch Watch App.app */,
-				6D468FFF2B982E8D00C6FFA8 /* Watch Watch AppTests.xctest */,
-				6D4690012B982E8D00C6FFA8 /* Watch Watch AppUITests.xctest */,
+				6D468FF12B982E8D00C6FFA8 /* AcousticMobilePushTestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1294,13 +1260,6 @@
 			remoteRef = 6D468FEA2B982E8D00C6FFA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D468FED2B982E8D00C6FFA8 /* AcousticMobilePushWatch.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AcousticMobilePushWatch.framework;
-			remoteRef = 6D468FEC2B982E8D00C6FFA8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		6D468FEF2B982E8D00C6FFA8 /* AcousticMobilePushNotification.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -1343,34 +1302,6 @@
 			remoteRef = 6D468FF82B982E8D00C6FFA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D468FFB2B982E8D00C6FFA8 /* Watch.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Watch.app;
-			remoteRef = 6D468FFA2B982E8D00C6FFA8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6D468FFD2B982E8D00C6FFA8 /* Watch Watch App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Watch Watch App.app";
-			remoteRef = 6D468FFC2B982E8D00C6FFA8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6D468FFF2B982E8D00C6FFA8 /* Watch Watch AppTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Watch Watch AppTests.xctest";
-			remoteRef = 6D468FFE2B982E8D00C6FFA8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6D4690012B982E8D00C6FFA8 /* Watch Watch AppUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Watch Watch AppUITests.xctest";
-			remoteRef = 6D4690002B982E8D00C6FFA8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1378,6 +1309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29DF55A72CD29B2200782E9B /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1421,6 +1353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29DF55A82CD2B1B200782E9B /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1624,6 +1557,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29DF55A52CD2839900782E9B /* NotificationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1690,6 +1624,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29DF55A62CD2839900782E9B /* NotificationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
