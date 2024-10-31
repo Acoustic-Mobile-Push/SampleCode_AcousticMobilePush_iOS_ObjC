@@ -29,7 +29,6 @@ static NotificationDelegate *sharedInstance = nil;
 
     if(notification.request.content.userInfo[@"notification-action"]) {
         [MCENotificationDelegate.sharedInstance userNotificationCenter:center willPresentNotification:notification withCompletionHandler:completionHandler];
-//        [NotificationDelegate.sharedInstance userNotificationCenter:center willPresentNotification:notification withCompletionHandler:completionHandler];
         return;
     }
     
