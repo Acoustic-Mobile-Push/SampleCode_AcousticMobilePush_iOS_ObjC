@@ -8,6 +8,7 @@
 * prohibited.
 */
 
+#import <AcousticMobilePush/AcousticMobilePush.h>
 #import "NotificationDelegate.h"
 
 @implementation NotificationDelegate
@@ -28,7 +29,7 @@ static NotificationDelegate *sharedInstance = nil;
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler {
 
     if(notification.request.content.userInfo[@"notification-action"]) {
-        [NotificationDelegate.sharedInstance userNotificationCenter:center willPresentNotification:notification withCompletionHandler:completionHandler];
+        [MCENotificationDelegate.sharedInstance userNotificationCenter:center willPresentNotification:notification withCompletionHandler:completionHandler];
         return;
     }
     
@@ -45,7 +46,7 @@ static NotificationDelegate *sharedInstance = nil;
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void(^)(void))completionHandler API_AVAILABLE(macos(10.14), ios(10.0), watchos(3.0), tvos(10.0)) {
 
     if(response.notification.request.content.userInfo[@"notification-action"]) {
-        [NotificationDelegate.sharedInstance userNotificationCenter: center didReceiveNotificationResponse: response withCompletionHandler: completionHandler];
+        [MCENotificationDelegate.sharedInstance userNotificationCenter: center didReceiveNotificationResponse: response withCompletionHandler: completionHandler];
         return;
     }
     
