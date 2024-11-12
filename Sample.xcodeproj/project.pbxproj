@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29CF10E72CE3AF9B0021A56E /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D28F662437A0EA00B8F979 /* NotificationViewController.m */; };
+		29CF10E82CE3AFA30021A56E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D28F672437A0EA00B8F979 /* MainInterface.storyboard */; };
+		29CF10E92CE3B0190021A56E /* Carousel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3437CCC428D91D7900F897D7 /* Carousel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3437CCC528D91D7900F897D7 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3437CCAE28D919D300F897D7 /* UserNotifications.framework */; };
 		3437CCC628D91D7900F897D7 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3437CCB028D919D300F897D7 /* UserNotificationsUI.framework */; };
 		3437CCD128D91D7900F897D7 /* Carousel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3437CCC428D91D7900F897D7 /* Carousel.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -234,7 +237,7 @@
 		};
 		C392A11C2437B70500C16933 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
@@ -242,7 +245,7 @@
 				C392A1182437B70500C16933 /* Auto Notification Service.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C392A12D2437B73700C16933 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -250,6 +253,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				29CF10E92CE3B0190021A56E /* Carousel.appex in Embed Foundation Extensions */,
 				C392A1292437B73700C16933 /* Manual Notification Service.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
@@ -974,6 +978,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29CF10E82CE3AFA30021A56E /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1045,6 +1050,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29CF10E72CE3AF9B0021A56E /* NotificationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
