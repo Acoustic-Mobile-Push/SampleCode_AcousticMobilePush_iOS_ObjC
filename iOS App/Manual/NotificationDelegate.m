@@ -7,6 +7,7 @@
 * Acoustic, L.P. Any unauthorized copying or distribution of content from this file is
 * prohibited.
 */
+
 #import <AcousticMobilePush/AcousticMobilePush.h>
 #import "NotificationDelegate.h"
 
@@ -29,7 +30,6 @@ static NotificationDelegate *sharedInstance = nil;
 
     if(notification.request.content.userInfo[@"notification-action"]) {
         [MCENotificationDelegate.sharedInstance userNotificationCenter:center willPresentNotification:notification withCompletionHandler:completionHandler];
-//        [NotificationDelegate.sharedInstance userNotificationCenter:center willPresentNotification:notification withCompletionHandler:completionHandler];
         return;
     }
     
